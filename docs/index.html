@@ -1,0 +1,701 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Oottattattoo | Boek een tattoo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Boek jouw custom tattoo in Amsterdam. Persoonlijk ontwerp, premium studio en heldere begeleiding van intake tot nazorg." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./js/gallery-carousel.css" />
+</head>
+
+<body class="bg-black text-primary font-sans">
+
+  <header class="sticky top-0 z-50 h-20 border-b border-white/15 bg-black backdrop-blur">
+    <div class="mx-auto flex h-full items-center justify-between px-6">
+      <button
+        class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+        type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Open menu</span>
+        <span class="relative flex h-4 w-5 flex-col justify-between">
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-transform duration-300"
+            data-line-top></span>
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-opacity duration-300"
+            data-line-middle></span>
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-transform duration-300"
+            data-line-bottom></span>
+        </span>
+      </button>
+
+      <a class="relative flex flex-col items-center overflow-hidden text-primary" href="#">
+        <span
+          class="flex flex-col items-center translate-x-0 animate-logoSwapA [animation-delay:8s] will-change-transform">
+          <span class="text-3xl font-display tracking-[0.2em]">OOTTAT</span>
+          <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Tattoo</span>
+        </span>
+        <span
+          class="absolute inset-0 flex flex-col items-center translate-x-full animate-logoSwapB [animation-delay:8s] will-change-transform">
+          <span class="text-3xl font-display tracking-[0.2em]">TATTOO</span>
+          <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Oottat</span>
+        </span>
+        <span aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 left-0 w-5 bg-gradient-to-r from-black to-transparent opacity-0 animate-logoEdgeLeft [animation-delay:8s]"></span>
+        <span aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 right-0 w-5 bg-gradient-to-l from-black to-transparent opacity-0 animate-logoEdgeRight [animation-delay:8s]"></span>
+      </a>
+
+      <a class="flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+        href="tel:+31612345678" aria-label="Bel ons">
+        <img src="./assets/icons/phone.svg" alt=""
+          class="text-white w-7 h-7 transition-transform duration-300 group-hover:translate-x-1" />
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[75dvh] w-full overflow-hidden lg:max-h-[800px]">
+    <img src="./assets/images/shop-front-1.jpg" class="absolute inset-0 h-full w-full object-cover lg:max-h-[800px]"
+      alt="Tattoo shop front" />
+    <div class="absolute inset-0 bg-black/80"></div>
+
+    <video autoplay muted loop playsinline data-hero-video
+      class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 ease-out lg:max-h-[800px]">
+      <source src="./assets/videos/hero-video.mp4" type="video/mp4" />
+    </video>
+    <div data-hero-overlay class="absolute inset-0 bg-black/70 opacity-0 transition-opacity duration-700 ease-out">
+    </div>
+
+    <div class="flex justify-center items-center w-full h-full">
+      <div
+        class="relative w-full max-w-4xl z-10 flex flex-col gap-14 h-full items-center justify-center text-center text-white px-6">
+        <div class="flex flex-col justify-center items-center gap-4">
+          <h1 class="text-[clamp(35px,5vw,90px)] font-extrabold leading-none tracking-[0.08em]">OOTTAT TATTOO</h1>
+          <p
+            class="text-[clamp(28px,3vw,62px)] skew-x-[-100px] italic text-accent tracking-[0.01em] leading-none font-extrabold">
+            Vakwerk voor permanentie</p>
+          <p class="text-[clamp(10px,2vw,13px)] mt-[0.5rem] uppercase tracking-[0.1em] font-extralight text-white/60">
+            Waar precisie artistrie ontmoet
+            •
+            Assendelft's luxury tattoo atelier</p>
+        </div>
+        <span class="w-full h-[1px] bg-white/10"></span>
+        <div class="w-full flex flex-col justify-center items-center gap-6">
+          <div class="w-full flex flex-wrap justify-evenly items-center gap-4">
+            <div class="flex flex-col gap-3">
+              <div class="flex gap-2 items-center">
+                <img src="./assets/icons/google-icon-white.jpg" alt="Google icon" class="h-6 w-6" />
+                <span class="text-xl md:text-2xl font-extrabold italic text-accent">★★★★★</span>
+              </div>
+              <span
+                class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Vijf-sterren
+                atelier</span>
+            </div>
+            <div class="flex flex-col gap-3">
+              <span class="text-3xl md:text-4xl uppercase font-extrabold">Est.<span
+                  class="text-xl md:text-2xl font-extrabold italic text-accent"> 2023</span></span>
+              <span class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Jaren van
+                vakmanschap</span>
+            </div>
+            <div class="flex flex-col gap-3">
+              <span class="text-3xl md:text-4xl font-extrabold"><span
+                  class="text-xl font-extrabold italic text-accent">100<span class="text-white">+</span>
+                </span>Tattoos</span>
+              <span
+                class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Gediplomeerd
+                atelier</span>
+            </div>
+          </div>
+          <a href="#boek"
+            class="inline-flex w-fit items-center justify-center bg-accent px-7 py-3 text-xs font-bold uppercase tracking-[0.1em] text-black transition hover:brightness-110">
+            Afspraak maken
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Over ons -->
+  <section class="bg-black text-primary">
+    <div class="mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 py-16 md:flex-row md:items-start md:gap-16">
+      <div class="relative w-full">
+        <div class="w-[80%] sm:h-[70%] md:w-[90%]">
+          <img src="./assets/images/impression-1.jpg" alt="Tattoo artiest aan het werk"
+            class="h-auto w-full object-cover h-[350px] sm:h-[550px] rounded-[4px]" />
+        </div>
+        <div class="absolute right-0 top-[33.3%] w-1/2">
+          <img src="./assets/images/impression-2.jpg" alt="Studio sfeer en consult"
+            class="absolute right-0 border border-white/10 rounded-[3px] shadow-[-6px_7px_8px_#00000063]" />
+        </div>
+      </div>
+
+      <div class="flex max-w-xl flex-col gap-3 md:w-3/5">
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-col">
+            <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
+              Over ons
+            </div>
+            <h2 class="text-3xl font-extrabold uppercase tracking-[0.25em]">Oottat Tattoo</h2>
+          </div>
+          <p class="text-sm leading-relaxed text-white/80">
+            Oottattattoo, opgericht door Guido Pruim in 2023, uitgegroeid tot een buitenbeentje in de Noord-Hollandse
+            tattoo-scene - biedt custom
+            tattoo's in een schoon, professioneel en rustig atelier.
+          </p>
+          <p class="text-sm leading-relaxed text-white/80">
+            Met onze hoge hygiëne-standaarden krijg jij een veilige, professionele sessie
+            waarin jouw visie met precisie en creativiteit tot leven wordt gebracht.
+          </p>
+        </div>
+        <a href="#boek"
+          class="inline-flex w-fit items-center justify-center rounded-[2px] bg-accent px-7 py-3 text-xs font-bold uppercase tracking-[0.1em] text-black transition hover:brightness-110">
+          Meer weten
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram galerij -->
+  <section id="gallery" class="bg-black text-primary">
+    <div class="mx-auto w-[92vw] pb-12 md:pb-16">
+      <div class="mb-10 flex flex-col gap-4">
+        <div>
+          <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
+            Instagram posts
+          </div>
+          <h2 class="text-3xl font-extrabold uppercase tracking-[0.18em] sm:text-4xl">Galerij</h2>
+        </div>
+        <p class="max-w-2xl text-sm leading-relaxed text-white/70">
+          Een paar posts om de stijl, sfeer en recente creaties te laten zien. Posts kunnen variëren van moderne
+          designs en minimal looks tot sfeerbeelden uit de studio.
+        </p>
+      </div>
+
+      <div class="group relative" data-carousel>
+        <div
+          class="carousel-scrollbar-hidden flex snap-x snap-mandatory select-none items-start gap-6 overflow-x-auto pb-3 pr-6 scroll-smooth lg:cursor-grab"
+          data-carousel-track>
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/impression-1.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Een voorbeeldcaption voor een recente post. Gebruik dit blok om een korte omschrijving van het
+                  ontwerp,
+                  de stijl of de sfeer van de post te tonen.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/impression-2.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Zachte lijnen, heldere vormen en een strak silhouet. Deze post laat zien hoe minimalisme toch
+                  karaktervol kan zijn.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/shop-front-1.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Een sfeerbeeld uit de studio: warme materialen, strak licht en een rustige setting voor jouw sessie.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/impression-1.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Close-up van een vers ontwerp met fijne details en een zachte schaduwwerking.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/impression-2.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Een serie van warme highlights en zachte schaduwpartijen die samen een rustige, moderne sfeer
+                  neerzetten.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/shop-front-1.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Een rustige werkplek, helder licht en een stabiele hand. Alles om jouw design zorgvuldig neer te
+                  zetten.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="group w-[80vw] max-w-[300px] shrink-0 snap-start overflow-hidden rounded-[5px] border border-white/10 bg-charcoal/80 shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[300px]">
+            <div class="flex items-center gap-3 border-b border-white/10 px-4 pb-3 pt-3">
+              <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                aria-label="Bekijk profielafbeelding van deze post op Instagram">
+                <img src="./assets/images/instagram-logo.jpg" alt="Profielfoto van het Instagram-account"
+                  class="h-9 w-9 rounded-full object-cover" loading="lazy" />
+              </a>
+              <div class="leading-tight">
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk profielnaam van deze post op Instagram"
+                  class="block text-sm font-semibold text-white transition">Oottat Tattoo</a>
+                <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Bekijk locatie van deze post op Instagram"
+                  class="block text-xs text-white/60 transition">Assendelft</a>
+              </div>
+            </div>
+
+            <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+              aria-label="Bekijk deze Instagram post">
+              <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/impression-1.jpg"
+                alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+            </a>
+
+            <div class="space-y-3 px-4 pb-4 pt-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Like op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Comment op Instagram post"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                  <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Deel via Instagram DM"
+                    class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                    <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                  </a>
+                </div>
+
+                <a href="https://www.instagram.com/p/post-id/" target="_blank" rel="noopener noreferrer"
+                  aria-label="Opslaan op Instagram"
+                  class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
+                  <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
+                </a>
+              </div>
+
+              <p class="text-xs leading-1 text-white/70" data-caption>
+                <span class="font-semibold text-white">oottattattoo.nl</span>
+                <span data-caption-text>
+                  Detailshot met fijne lijnvoering en subtiele contrasten die de compositie rustig houden.
+                </span>
+                <button type="button" class="ml-1 hidden text-[11px] font-semibold text-slate-400" data-caption-more>...
+                  meer</button>
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <button type="button"
+          class="absolute left-5 top-1/2 hidden -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/70 p-3 text-white shadow-[0_12px_24px_rgba(0,0,0,0.35)] backdrop-blur transition-all duration-300 ease-out hover:bg-black/90 lg:flex lg:opacity-0 lg:-translate-x-2 lg:pointer-events-none group-hover:lg:opacity-100 group-hover:lg:translate-x-0 group-hover:lg:pointer-events-auto"
+          aria-label="Vorige posts" data-carousel-prev>
+          <img src="./assets/icons/chevron-right.svg" alt="" aria-hidden="true"
+            class="h-4 w-4 rotate-180 transition-transform duration-300 ease-out group-hover:translate-x-0" />
+        </button>
+        <button type="button"
+          class="absolute right-5 top-1/2 hidden -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/70 p-3 text-white shadow-[0_12px_24px_rgba(0,0,0,0.35)] backdrop-blur transition-all duration-300 ease-out hover:bg-black/90 lg:flex lg:opacity-0 lg:translate-x-2 lg:pointer-events-none group-hover:lg:opacity-100 group-hover:lg:translate-x-0 group-hover:lg:pointer-events-auto"
+          aria-label="Volgende posts" data-carousel-next>
+          <img src="./assets/icons/chevron-right.svg" alt="" aria-hidden="true"
+            class="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-0" />
+        </button>
+      </div>
+
+      <div class="mt-8">
+        <a href="#boek"
+          class="inline-flex gap-2 w-fit items-center justify-center rounded-[2px] bg-accent px-7 py-3 text-xs font-bold uppercase tracking-[0.1em] text-black transition hover:brightness-110">
+          <img src="./assets/icons/instagram-logo.svg" alt="" aria-hidden="true" class="h-4 w-4" />
+          Bekijk Account
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div id="mobile-menu"
+    class="fixed inset-0 z-40 flex items-start justify-center bg-black pt-20 opacity-0 pointer-events-none backdrop-blur transition-all duration-500 max-w-[300px] me-[25px]"
+    aria-hidden="true" data-mobile-menu>
+    <div class="w-full rounded-[5px] p-4 transition-all duration-500 translate-y-4 opacity-0" data-mobile-panel>
+      <nav class="flex flex-col text-xl font-montserrat tracking-[0.05em] text-primary">
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[0ms]"
+          href="#">
+          <span>Nu boeken</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[80ms]"
+          href="#">
+          <span>Services</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[80ms]"
+          href="#gallery">
+          <span>Galerij</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[160ms]"
+          href="#">
+          <span>Verzorgingtips</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[160ms]"
+          href="#">
+          <span>Over ons</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item flex items-center justify-between text-xs uppercase py-4 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[240ms]"
+          href="#">
+          <span>Contact</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="menu-item mt-4 inline-flex items-center justify-center rounded-full border border-black/40 px-6 py-3 text-sm font-semibold uppercase tracking-[0.3em] text-primary opacity-0 -translate-y-2 transition-all duration-500 delay-[320ms]"
+          href="#boek">
+          Boek nu
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="./js/header-menu.js"></script>
+  <script src="./js/hero-video.js"></script>
+  <script src="./js/caption-more.js"></script>
+  <script src="./js/gallery-carousel.js"></script>
+</body>
+
+</html>
