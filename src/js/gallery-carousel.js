@@ -21,6 +21,7 @@ carousels.forEach((carousel) => {
   }
 
   let isDragging = false;
+  let isPointerDown = false;
   let startX = 0;
   let startScrollLeft = 0;
   let didDrag = false;
@@ -45,30 +46,34 @@ carousels.forEach((carousel) => {
     if (event.button !== 0) {
       return;
     }
-    isDragging = true;
+    isPointerDown = true;
     didDrag = false;
     startX = event.clientX;
     startScrollLeft = track.scrollLeft;
-    track.style.cursor = 'grabbing';
-    track.setPointerCapture(event.pointerId);
   };
 
   const onPointerMove = (event) => {
-    if (!isDragging) {
+    if (!isPointerDown) {
       return;
     }
     const delta = event.clientX - startX;
-    if (!didDrag && Math.abs(delta) > 6) {
+    if (!isDragging && Math.abs(delta) > 6) {
+      isDragging = true;
       didDrag = true;
+      track.style.cursor = 'grabbing';
+      track.setPointerCapture(event.pointerId);
     }
-    track.scrollLeft = startScrollLeft - delta;
+    if (isDragging) {
+      track.scrollLeft = startScrollLeft - delta;
+    }
   };
 
   const stopDragging = (event) => {
-    if (!isDragging) {
+    if (!isPointerDown) {
       return;
     }
     isDragging = false;
+    isPointerDown = false;
     track.style.cursor = '';
     if (event && track.hasPointerCapture(event.pointerId)) {
       track.releasePointerCapture(event.pointerId);
