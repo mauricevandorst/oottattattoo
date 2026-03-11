@@ -58,6 +58,16 @@ if (toggleButton && mobileMenu && mobilePanel) {
     }
   });
 
+  document.addEventListener("click", (event) => {
+    if (!isOpen()) {
+      return;
+    }
+    const target = event.target;
+    if (!mobilePanel.contains(target) && !toggleButton.contains(target)) {
+      closeMenu();
+    }
+  });
+
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && isOpen()) {
       closeMenu();
