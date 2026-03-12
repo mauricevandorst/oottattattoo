@@ -17,12 +17,12 @@
     const distance = Number.parseFloat(element.dataset.scrollDistance || "32");
     const axis = (element.dataset.scrollAxis || "y").toLowerCase();
     const start = Number.parseFloat(element.dataset.scrollStart || "1.0");
-    const end = Number.parseFloat(element.dataset.scrollEnd || "0.6");
+    const end = Number.parseFloat(element.dataset.scrollEnd || "0.5");
     return {
       distance,
       axis: axis === "x" ? "x" : "y",
       start: Number.isFinite(start) ? start : 1.0,
-      end: Number.isFinite(end) ? end : 0.6,
+      end: Number.isFinite(end) ? end : 0.5,
     };
   };
 
