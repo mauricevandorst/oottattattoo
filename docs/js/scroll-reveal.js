@@ -37,8 +37,16 @@
 
   elements.forEach(setInitial);
 
+  const getViewportHeight = () => {
+    const visualViewport = window.visualViewport;
+    if (visualViewport && Number.isFinite(visualViewport.height)) {
+      return visualViewport.height;
+    }
+    return window.innerHeight || 0;
+  };
+
   const update = () => {
-    const vh = window.innerHeight || 0;
+    const vh = getViewportHeight();
     elements.forEach((element) => {
       const rect = element.getBoundingClientRect();
       const { distance, axis, start, end } = getConfig(element);
@@ -68,4 +76,8 @@
   update();
   window.addEventListener("scroll", requestTick, { passive: true });
   window.addEventListener("resize", update);
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", update);
+    window.visualViewport.addEventListener("scroll", requestTick, { passive: true });
+  }
 })();

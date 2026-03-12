@@ -1685,10 +1685,6 @@ video {
   will-change: transform;
 }
 
-.\[animation-delay\:0s\] {
-  animation-delay: 0s;
-}
-
 .\[animation-delay\:8s\] {
   animation-delay: 8s;
 }
