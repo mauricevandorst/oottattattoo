@@ -942,6 +942,41 @@
       </div>
     </section>
 
+    <!-- Reviews -->
+    <section id="reviews" class="relative overflow-hidden bg-black text-primary">
+      <div aria-hidden="true"
+        class="pointer-events-none absolute -top-24 left-1/2 h-72 w-[600px] -translate-x-1/2">
+      </div>
+      <div class="lg:max-w-[1850px] lg:w-[92vw] mx-6 lg:mx-auto">
+        <div class="flex flex-col gap-4">
+          <div data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+            class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60 md:justify-center md:w-full ">
+            Reviews
+          </div>
+          <h2
+            class="text-[1.65rem] sm:text-3xl font-extrabold uppercase tracking-[0.18em] md:text-center md:w-full md:text-4xl"
+            data-scroll-fade data-scroll-axis="x" data-scroll-distance="18">
+            Wat klanten zeggen
+          </h2>
+          <div class="flex justify-center md:w-full">
+            <p class="max-w-3xl text-sm leading-relaxed text-white/70 md:text-center" data-scroll-fade
+              data-scroll-axis="x" data-scroll-distance="20">
+              Lees reviews van klanten die bij ons een tattoo hebben laten zetten. Bekijk de
+              reviews rechtstreeks via Google.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google reviews Widget -->
+      <div class="mx-auto w-full max-w-6xl px-6 invert">
+        <div class="w-full flex justify-center relative overflow-hidden">
+          <div class="max-w-7xl w-full px-2 sm:px-3 lg:px-4" id="featurable-32bff1f8-5511-499b-8329-05e81d6d34bb"
+            data-featurable-async>
+          </div>
+        </div>
+    </section>
+
     <!-- Boek nu CTA -->
     <section id="boek" class="bg-black text-primary">
       <div class="mx-auto w-full max-w-5xl px-6 pb-16" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
@@ -1036,8 +1071,8 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x"
-        data-scroll-distance="14" data-scroll-start="1.2">
+          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+            data-scroll-start="1.2">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
             <div class="flex flex-col gap-3 text-sm text-white/70">
               <a class="transition hover:text-accent" href="./">Home</a>
@@ -1151,6 +1186,8 @@
   <script src="./js/smooth-scroll.js"></script>
   <script src="./js/scroll-reveal.js"></script>
   <script src="./js/care-steps-carousel.js"></script>
+  <script src="./js/featurable-credit-hider.js" defer></script>
+  <script src="https://featurable.com/assets/v2/carousel_default.min.js" defer charset="UTF-8"></script>
 </body>
 
 </html>
