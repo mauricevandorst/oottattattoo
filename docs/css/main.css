@@ -790,12 +790,12 @@ video {
   height: max-content;
 }
 
-.min-h-\[600px\] {
-  min-height: 600px;
-}
-
 .min-h-\[420px\] {
   min-height: 420px;
+}
+
+.min-h-\[600px\] {
+  min-height: 600px;
 }
 
 .w-1\/2 {
@@ -1345,10 +1345,6 @@ video {
   align-self: flex-start;
 }
 
-.self-stretch {
-  align-self: stretch;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1596,10 +1592,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.font-display {
-  font-family: "Bebas Neue", sans-serif;
 }
 
 .font-montserrat {
