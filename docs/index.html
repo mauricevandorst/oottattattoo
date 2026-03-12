@@ -925,7 +925,7 @@
           </button>
         </div>
         <div class="mt-6 flex items-center justify-center gap-2" data-care-indicators data-scroll-fade
-          data-scroll-axis="x" data-scroll-distance="18" data-scroll-start="0.85">
+          data-scroll-axis="x" data-scroll-distance="18" data-scroll-start="1.2">
           <button type="button"
             class="h-2 w-2 rounded-full border border-white/40 transition-all duration-300 data-[active=true]:w-6 data-[active=true]:border-white data-[active=true]:bg-white/90"
             aria-label="Ga naar stap 1" data-care-indicator data-active="true" aria-current="true"></button>
@@ -964,12 +964,12 @@
           <div class="relative z-10 flex flex-col gap-2 w-max">
             <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20tattoo%20met%20je%20willen%20bespreken."
               target="_blank" class="group w-full flex gap-2 button-primary text-nowrap !shadow-none" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26">
+              data-scroll-axis="x" data-scroll-distance="26" data-scroll-start="1.2">
               Bericht sturen
               <span class="group-hover:translate-x-1 duration-300">→</span>
             </a>
             <a href="tel:+31610979663" class="group w-full flex gap-2 button-secondary" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26">
+              data-scroll-axis="x" data-scroll-distance="26" data-scroll-start="1.2">
               <img src="./assets/icons/phone.svg" alt="" aria-hidden="true"
                 class="relative z-10 h-4 w-4 group-hover:-translate-x-1 duration-300" />
               <span class="relative z-10 text-nowrap">Bellen</span>
@@ -996,18 +996,21 @@
             </p>
             <div class="flex flex-wrap gap-3">
               <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20consult%20bij%20je%20willen%20boeken."
-                target="_blank" class="group flex items-center gap-2 button-primary !shadow-none">
+                target="_blank" class="group flex items-center gap-2 button-primary !shadow-none" data-scroll-fade
+                data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="0.85">
                 Boek consult
                 <span class="group-hover:translate-x-1 duration-300">→</span>
               </a>
-              <a href="galerij.html" class="group flex items-center gap-2 button-secondary">
+              <a href="galerij.html" class="group flex items-center gap-2 button-secondary" data-scroll-fade
+                data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="0.85">
                 Bekijk werk
                 <span class="group-hover:translate-x-1 duration-300">→</span>
               </a>
             </div>
           </div>
 
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+            data-scroll-start="0.85">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Contact</div>
             <div class="flex flex-col gap-3 text-sm text-white/80">
               <a class="inline-flex items-center gap-3 transition hover:text-accent" href="tel:+31610979663">
@@ -1033,7 +1036,8 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x"
+        data-scroll-distance="14" data-scroll-start="1.2">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
             <div class="flex flex-col gap-3 text-sm text-white/70">
               <a class="transition hover:text-accent" href="./">Home</a>
