@@ -35,6 +35,17 @@
     element.style.willChange = "transform, opacity";
   };
 
+  const updateBasePositions = () => {
+    elements.forEach((element) => {
+      const previousTransform = element.style.transform;
+      element.style.transform = "none";
+      const rect = element.getBoundingClientRect();
+      element.dataset.scrollBaseTop = (rect.top + window.scrollY).toFixed(2);
+      element.style.transform = previousTransform;
+    });
+  };
+
+  updateBasePositions();
   elements.forEach(setInitial);
 
   const getViewportHeight = () => {
@@ -47,13 +58,16 @@
 
   const update = () => {
     const vh = getViewportHeight();
+    const scrollY = window.scrollY || window.pageYOffset || 0;
     elements.forEach((element) => {
+      const baseTop = Number.parseFloat(element.dataset.scrollBaseTop || "");
       const rect = element.getBoundingClientRect();
+      const top = Number.isFinite(baseTop) ? baseTop - scrollY : rect.top;
       const { distance, axis, start, end } = getConfig(element);
       const startPx = vh * start;
       const endPx = vh * end;
       const range = startPx - endPx || 1;
-      const progressRaw = clamp((startPx - rect.top) / range, 0, 1);
+      const progressRaw = clamp((startPx - top) / range, 0, 1);
       const progress = progressRaw * progressRaw * (3 - 2 * progressRaw);
       const offset = (1 - progress) * distance;
       const x = axis === "x" ? offset : 0;
@@ -75,7 +89,14 @@
 
   update();
   window.addEventListener("scroll", requestTick, { passive: true });
-  window.addEventListener("resize", update);
+  window.addEventListener("resize", () => {
+    updateBasePositions();
+    update();
+  });
+  window.addEventListener("load", () => {
+    updateBasePositions();
+    update();
+  });
   if (window.visualViewport) {
     window.visualViewport.addEventListener("resize", update);
     window.visualViewport.addEventListener("scroll", requestTick, { passive: true });
