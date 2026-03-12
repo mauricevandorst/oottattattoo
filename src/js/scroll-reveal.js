@@ -1,5 +1,17 @@
 (() => {
-  const elements = Array.from(document.querySelectorAll("[data-scroll-fade]"));
+  const allElements = Array.from(document.querySelectorAll("[data-scroll-fade]"));
+  if (!allElements.length) return;
+
+  const elements = allElements.filter((element) => {
+    if (element.closest("[data-care-viewport]")) {
+      element.style.opacity = "1";
+      element.style.transform = "none";
+      element.style.willChange = "auto";
+      return false;
+    }
+    return true;
+  });
+
   if (!elements.length) return;
 
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
