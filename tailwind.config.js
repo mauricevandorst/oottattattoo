@@ -17,6 +17,14 @@ module.exports = {
         montserrat: ['"Montserrat"', "sans-serif"],
       },
       keyframes: {
+        fadeInUp: {
+          "0%": { opacity: "0", transform: "translate3d(0, 12px, 0)" },
+          "100%": { opacity: "1", transform: "translate3d(0, 0, 0)" },
+        },
+        fadeInDown: {
+          "0%": { opacity: "0", transform: "translate3d(0, -8px, 0)" },
+          "100%": { opacity: "1", transform: "translate3d(0, 0, 0)" },
+        },
         marquee: {
           from: { transform: "translateX(0%)" },
           to: { transform: "translateX(-50%)" },
@@ -57,6 +65,15 @@ module.exports = {
         },
       },
       animation: {
+        fadeInUp: "fadeInUp 0.9s ease-out both",
+        fadeInUp200: "fadeInUp 0.9s ease-out 0.2s both",
+        fadeInUp400: "fadeInUp 0.9s ease-out 0.4s both",
+        fadeInUp600: "fadeInUp 0.9s ease-out 0.6s both",
+        fadeInUp700: "fadeInUp 0.9s ease-out 0.7s both",
+        fadeInUp800: "fadeInUp 0.9s ease-out 0.8s both",
+        fadeInUp900: "fadeInUp 0.9s ease-out 0.9s both",
+        fadeInUp1100: "fadeInUp 0.9s ease-out 0.9s both",
+        fadeInDown: "fadeInDown 0.6s ease-out both",
         marquee: "marquee 30s linear infinite",
         spinSlow: "spinSlow 60s linear infinite",
         logoSwapA: "logoSwapA 16s ease-in-out infinite",

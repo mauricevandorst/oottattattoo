@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Oottattattoo | Boek een tattoo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Boek jouw custom tattoo in Amsterdam. Persoonlijk ontwerp, premium studio en heldere begeleiding van intake tot nazorg." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./js/buttons.css" />
+  <link rel="stylesheet" href="./js/shimmer.css" />
+</head>
+
+<body class="bg-black text-primary font-sans">
+
+  <header class="sticky top-0 z-50 h-20 border-b border-white/15 bg-black backdrop-blur animate-fadeInDown">
+    <div class="mx-auto flex h-full items-center justify-between px-6">
+      <button
+        class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+        type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Open menu</span>
+        <span class="relative flex h-4 w-5 flex-col justify-between">
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-transform duration-300"
+            data-line-top></span>
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-opacity duration-300"
+            data-line-middle></span>
+          <span class="block h-[2px] w-full rounded-full bg-primary transition-transform duration-300"
+            data-line-bottom></span>
+        </span>
+      </button>
+
+      <a class="relative flex flex-col items-center overflow-hidden text-primary" href="./">
+        <span class="flex flex-col items-center translate-x-0 animate-logoSwapA will-change-transform">
+          <span class="text-3xl font-display tracking-[0.2em]">OOTTAT</span>
+          <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Tattoo</span>
+        </span>
+        <span
+          class="absolute inset-0 flex flex-col items-center translate-x-full animate-logoSwapB will-change-transform">
+          <span class="text-3xl font-display tracking-[0.2em]">TATTOO</span>
+          <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Oottat</span>
+        </span>
+        <span aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 left-0 w-5 bg-gradient-to-r from-black to-transparent opacity-0 animate-logoEdgeLeft"></span>
+        <span aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 right-0 w-5 bg-gradient-to-l from-black to-transparent opacity-0 animate-logoEdgeRight"></span>
+      </a>
+
+      <a class="flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+        href="tel:+31610979663" aria-label="Bel ons">
+        <img src="./assets/icons/phone.svg" alt=""
+          class="text-white w-7 h-7 transition-transform duration-300 group-hover:translate-x-1" />
+      </a>
+    </div>
+  </header>
+
+  <main class="overflow-x-hidden">
+
+    <!-- Collega galerij -->
+    <section id="gallery" class="bg-black text-primary my-12">
+      <div class="mx-auto w-[92vw] pb-12 md:pb-16">
+        <div class="w-full mb-10 flex flex-col justify-center gap-4">
+          <div class="animate-fadeInUp">
+            <div
+              class="w-full text-center mb-3 inline-flex justify-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
+              Foto galerij
+            </div>
+            <h2 class="w-full text-center text-3xl font-extrabold uppercase tracking-[0.18em] sm:text-4xl">Galerij</h2>
+          </div>
+          <p class="w-full flex justify-center text-center text-sm leading-relaxed text-white/70 animate-fadeInUp200">
+            Een selectie van recente tattoos die in de studio zijn gezet. Van kleine pieces tot grotere ontwerpen,
+            allemaal werk van de afgelopen tijd.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-2 gap-3 auto-rows-[140px] sm:grid-cols-3 sm:auto-rows-[160px] md:gap-4 md:auto-rows-[250px] lg:grid-cols-4 lg:auto-rows-[300px] animate-fadeInUp400">
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="26">
+            <img src="./assets/images/design-22.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-24.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-1.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-2.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="26">
+            <img src="./assets/images/design-23.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="-26">
+            <img src="./assets/images/design-3.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-4.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-5.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-6.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-7.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-8.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-9.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-10.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="26">
+            <img src="./assets/images/design-11.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="-26">
+            <img src="./assets/images/design-12.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="26">
+            <img src="./assets/images/design-13.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="-26">
+            <img src="./assets/images/design-14.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="26">
+            <img src="./assets/images/design-15.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-16.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-17.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-18.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-19.jpg" alt="Tattoo close-up"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
+            data-scroll-distance="-26">
+            <img src="./assets/images/design-20.jpg" alt="Tattoo detail"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+          <div class="group relative overflow-hidden rounded-sm bg-white/5 row-span-2" data-scroll-fade
+            data-scroll-axis="x" data-scroll-distance="26">
+            <img src="./assets/images/design-21.jpg" alt="Studio sfeer"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" />
+            <span aria-hidden="true"
+              class="pointer-events-none absolute inset-0 bg-black/20 transition duration-500 group-hover:opacity-0"></span>
+          </div>
+        </div>
+
+        <div class="mt-4 w-full flex justify-center animate-fadeInUp600">
+          <div class="flex flex-col gap-2 w-full sm:max-w-[350px]">
+            <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
+              target="_blank" class="group w-full flex gap-2 button-primary !shadow-none" data-scroll-fade
+              data-scroll-axis="x" data-scroll-distance="26">
+              Afspraak maken
+              <span class="group-hover:translate-x-1 duration-300">→</span>
+            </a>
+            <a href="https://www.instagram.com/oottattattoo.nl" class="w-full flex gap-2 button-secondary"
+              data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+              <img src="./assets/icons/instagram-logo-white.svg" alt="" aria-hidden="true"
+                class="relative z-10 h-4 w-4" />
+              <span class="relative z-10">Bekijk instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boek nu CTA -->
+    <section id="boek" class="bg-black text-primary">
+      <div class="mx-auto w-full max-w-5xl px-6 pb-16" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+        <div
+          class="relative flex flex-col items-start justify-between gap-8 overflow-hidden rounded-[6px] border border-white/10 bg-gradient-to-br from-black/90 via-charcoal/90 to-[#3a2f1d]/70 p-8 md:flex-row md:items-center md:gap-10">
+          <span aria-hidden="true"
+            class="cta-shimmer pointer-events-none absolute -inset-1 bg-gradient-to-r from-transparent via-white/25 to-transparent mix-blend-screen blur-sm"></span>
+          <div class="relative z-10 max-w-2xl" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+            <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
+              Klaar voor jouw ontwerp?
+            </div>
+            <h2 class="text-3xl font-extrabold uppercase sm:text-4xl">Plan jouw sessie</h2>
+            <p class="mt-3 text-sm leading-relaxed text-white/70">
+              Deel je idee, referenties en wanneer je het wilt plaatsen. Dan krijg je van ons een voorstel en
+              beschikbare tijden.
+            </p>
+          </div>
+          <div class="relative z-10 flex flex-col gap-2 w-max">
+            <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
+              target="_blank" class="group w-full flex gap-2 button-primary text-nowrap !shadow-none" data-scroll-fade
+              data-scroll-axis="x" data-scroll-distance="26">
+              Afspraak maken
+              <span class="group-hover:translate-x-1 duration-300">→</span>
+            </a>
+            <a href="https://www.instagram.com/oottattattoo.nl" class="group w-full flex gap-2 button-secondary"
+              data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+              <img src="./assets/icons/phone.svg" alt="" aria-hidden="true"
+                class="relative z-10 h-4 w-4 group-hover:-translate-x-1 duration-300" />
+              <span class="relative z-10 text-nowrap">Bellen</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="relative bg-black text-primary border-t border-white/10">
+      <div aria-hidden="true"
+        class="pointer-events-none absolute -top-24 right-10 h-44 w-44 rounded-full bg-accent/10 blur-3xl"></div>
+      <div class="mx-auto w-full max-w-6xl px-6 py-12 md:py-16">
+        <div class="grid gap-10 md:grid-cols-[1.1fr_0.9fr_0.9fr]">
+          <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <span class="text-3xl font-display tracking-[0.2em]">OOTTAT</span>
+              <span class="text-xs uppercase tracking-[0.45em] text-white/70">Tattoo studio</span>
+            </div>
+            <p class="max-w-sm text-sm leading-relaxed text-white/70">
+              Premium custom tattoos in een rustige, moderne studio. Focus op precisie, schaduw en
+              tijdloze designs.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
+                target="_blank" class="group flex items-center gap-2 button-primary !shadow-none">
+                Boek consult
+                <span class="group-hover:translate-x-1 duration-300">→</span>
+              </a>
+              <a href="galerij.html" class="group flex items-center gap-2 button-secondary">
+                Bekijk werk
+                <span class="group-hover:translate-x-1 duration-300">→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <div class="text-xs uppercase tracking-[0.2em] text-white/60">Contact</div>
+            <div class="flex flex-col gap-3 text-sm text-white/80">
+              <a class="inline-flex items-center gap-3 transition hover:text-accent" href="tel:+31610979663">
+                <img src="./assets/icons/phone.svg" alt="" aria-hidden="true" class="h-4 w-4" />
+                +31 6 10979663
+              </a>
+              <a class="inline-flex items-center gap-3 transition hover:text-accent"
+                href="https://wa.me/31610979663"
+                target="_blank" rel="noopener noreferrer">
+                <img src="./assets/icons/whatsapp-logo-white.svg" alt="" aria-hidden="true" class="h-4 w-4" />
+                WhatsApp
+              </a>
+              <a class="inline-flex items-center gap-3 transition hover:text-accent"
+                href="https://www.instagram.com/oottattattoo.nl" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/icons/instagram-logo-white.svg" alt="" aria-hidden="true" class="h-4 w-4" />
+                @oottattattoo.nl
+              </a>
+              <div class="text-white/60">Assendelft • Noord-Holland</div>
+              <div class="text-white/60">Alleen op afspraak</div>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
+            <div class="flex flex-col gap-3 text-sm text-white/70">
+              <a class="transition hover:text-accent" href="./">Home</a>
+              <a class="transition hover:text-accent" href="./#over-ons">Over ons</a>
+              <a class="transition hover:text-accent" href="./galerij.html">Galerij</a>
+              <a class="transition hover:text-accent" href="./#instagram">Instagram</a>
+              <a class="transition hover:text-accent" href="./algemene-voorwaarden.html">Algemene voorwaarden</a>
+              <a class="transition hover:text-accent" href="./privacy.html">Privacybeleid</a>
+              <a class="transition hover:text-accent" href="tel:+31610979663">Bel direct</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs uppercase tracking-[0.2em] text-white/50 sm:flex-row sm:items-center sm:justify-between">
+          <div class="flex flex-col gap-2 sm:gap-1">
+            <span>© 2026 Oottat Tattoo</span>
+          </div>
+          <a href="https://mauricevandorst.com/" target="_blank"
+              class="group text-[10px] tracking-[0.1em] text-white/40">Website by <span
+                class="text-white/60 group-hover:text-white/80">van
+                Dorst</span></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Zwevend WhatsApp icoon (mobiel) -->
+    <a href="https://wa.me/31610979663" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="2"
+      class="fixed bottom-6 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-green-500 shadow-lg hover:bg-green-600 lg:hidden"
+      aria-label="Chat via WhatsApp">
+      <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.216 175.552" aria-hidden="true">
+        <defs>
+          <linearGradient id="b" x1="85.915" x2="86.535" y1="32.567" y2="137.092" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#57d163" />
+            <stop offset="1" stop-color="#23b33a" />
+          </linearGradient>
+          <filter id="a" width="1.115" height="1.114" x="-.057" y="-.057" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="3.531" />
+          </filter>
+        </defs>
+        <path fill="#b3b3b3"
+          d="m54.532 138.45 2.235 1.324c9.387 5.571 20.15 8.518 31.126 8.523h.023c33.707 0 61.139-27.426 61.153-61.135.006-16.335-6.349-31.696-17.895-43.251A60.75 60.75 0 0 0 87.94 25.983c-33.733 0-61.166 27.423-61.178 61.13a60.98 60.98 0 0 0 9.349 32.535l1.455 2.312-6.179 22.558zm-40.811 23.544L24.16 123.88c-6.438-11.154-9.825-23.808-9.821-36.772.017-40.556 33.021-73.55 73.578-73.55 19.681.01 38.154 7.669 52.047 21.572s21.537 32.383 21.53 52.037c-.018 40.553-33.027 73.553-73.578 73.553h-.032c-12.313-.005-24.412-3.094-35.159-8.954zm0 0"
+          filter="url(#a)" />
+        <path fill="#fff"
+          d="m12.966 161.238 10.439-38.114a73.42 73.42 0 0 1-9.821-36.772c.017-40.556 33.021-73.55 73.578-73.55 19.681.01 38.154 7.669 52.047 21.572s21.537 32.383 21.53 52.037c-.018 40.553-33.027 73.553-73.578 73.553h-.032c-12.313-.005-24.412-3.094-35.159-8.954z" />
+        <path fill="url(#b)"
+          d="M87.184 25.227c-33.733 0-61.166 27.423-61.178 61.13a60.98 60.98 0 0 0 9.349 32.535l1.455 2.313-6.179 22.558 23.146-6.069 2.235 1.324c9.387 5.571 20.15 8.517 31.126 8.523h.023c33.707 0 61.14-27.426 61.153-61.135a60.75 60.75 0 0 0-17.895-43.251 60.75 60.75 0 0 0-43.235-17.928z" />
+        <path fill="#fff" fill-rule="evenodd"
+          d="M68.772 55.603c-1.378-3.061-2.828-3.123-4.137-3.176l-3.524-.043c-1.226 0-3.218.46-4.902 2.3s-6.435 6.287-6.435 15.332 6.588 17.785 7.506 19.013 12.718 20.381 31.405 27.75c15.529 6.124 18.689 4.906 22.061 4.6s10.877-4.447 12.408-8.74 1.532-7.971 1.073-8.74-1.685-1.226-3.525-2.146-10.877-5.367-12.562-5.981-2.91-.919-4.137.921-4.746 5.979-5.819 7.206-2.144 1.381-3.984.462-7.76-2.861-14.784-9.124c-5.465-4.873-9.154-10.891-10.228-12.73s-.114-2.835.808-3.751c.825-.824 1.838-2.147 2.759-3.22s1.224-1.84 1.836-3.065.307-2.301-.153-3.22-4.032-10.011-5.666-13.647" />
+      </svg>
+    </a>
+
+  </main>
+
+  <div id="mobile-menu"
+    class="fixed inset-0 z-40 flex items-start justify-center bg-black pt-20 opacity-0 pointer-events-none backdrop-blur transition-all duration-500 w-[80vw] max-w-[300px]"
+    aria-hidden="true" data-mobile-menu>
+    <div class="w-full h-full rounded-[5px] p-4 transition-all duration-500 translate-y-4 opacity-0" data-mobile-panel>
+      <nav class="flex flex-col text-xl font-montserrat tracking-[0.05em] text-primary">
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[80ms]"
+          href="./">
+          <span class="group-hover:text-white/60 duration-300">Homepagina</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[0ms]"
+          href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken.">
+          <span class="group-hover:text-white/60 duration-300">Nu boeken</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[80ms]"
+          href="./#over-ons">
+          <span class="group-hover:text-white/60 duration-300">Over ons</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[80ms]"
+          href="./galerij.html">
+          <span class="group-hover:text-white/60 duration-300">Galerij</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[160ms]"
+          href="./#verzorging-tips">
+          <span class="group-hover:text-white/60 duration-300">Verzorgingtips</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[240ms]"
+          href="tel:+31610979663">
+          <span class="group-hover:text-white/60 duration-300">Bel ons</span>
+          <img src="./assets/icons/chevron-right.svg" alt=""
+            class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+        </a>
+        <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
+          target="_blank" class="group mt-4 flex gap-2 button-primary">
+          Boek nu
+          <span class="group-hover:translate-x-1 duration-300">→</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="./js/header-menu.js"></script>
+  <script src="./js/hero-video.js"></script>
+  <script src="./js/caption-more.js"></script>
+  <script src="./js/gallery-carousel.js"></script>
+  <script src="./js/smooth-scroll.js"></script>
+  <script src="./js/scroll-reveal.js"></script>
+</body>
+
+</html>
