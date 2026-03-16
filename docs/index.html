@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./js/buttons.css" />
   <link rel="stylesheet" href="./js/gallery-carousel.css" />
@@ -17,7 +19,9 @@
 
 <body class="bg-black text-primary font-sans">
 
-  <header class="sticky top-0 z-50 h-20 border-b border-white/15 bg-black backdrop-blur animate-fadeInDown">
+  <header
+    class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown"
+    data-site-header>
     <div class="mx-auto flex h-full items-center justify-between px-6">
       <button
         class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
@@ -33,7 +37,7 @@
         </span>
       </button>
 
-      <a class="relative inline-grid place-items-center overflow-hidden text-primary" href="./">
+      <a class="relative inline-grid place-items-center overflow-hidden text-primary animate-logoMask" href="./">
         <span aria-hidden="true" class="col-start-1 row-start-1 flex flex-col items-center invisible">
           <span class="text-3xl tracking-[0.2em]">TATTOO</span>
           <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Oottat</span>
@@ -48,10 +52,6 @@
           <span class="text-3xl tracking-[0.2em]">TATTOO</span>
           <span class="text-xs uppercase tracking-[0.45em] text-white lg:inline">Oottat</span>
         </span>
-        <span aria-hidden="true"
-          class="pointer-events-none absolute inset-y-0 left-0 w-5 bg-gradient-to-r from-black to-transparent opacity-0 animate-logoEdgeLeft"></span>
-        <span aria-hidden="true"
-          class="pointer-events-none absolute inset-y-0 right-0 w-5 bg-gradient-to-l from-black to-transparent opacity-0 animate-logoEdgeRight"></span>
       </a>
 
       <a class="flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
@@ -65,65 +65,53 @@
   <main class="overflow-x-hidden">
 
     <!-- Hero -->
-    <section class="relative flex justify-center w-full min-h-[600px] overflow-hidden py-12 md:py-16 lg:py-24">
-      <video autoplay muted loop playsinline data-hero-video
-        class="absolute inset-0 h-full w-full object-cover lg:max-h-[800px]">
+    <section
+      class="relative flex justify-center items-end pb-20 lg:pb-24 w-full h-[100vh] min-h-[724px] overflow-hidden">
+      <video autoplay muted loop playsinline data-hero-video class="absolute inset-0 h-full w-full object-cover">
         <source src="./assets/videos/hero-video.mp4" type="video/mp4" />
       </video>
       <div data-hero-overlay class="absolute inset-0 bg-black/65">
       </div>
 
-      <div class="flex justify-center items-center w-full">
+      <div class="flex mx-auto items-center w-full max-w-6xl">
         <div
-          class="relative w-full max-w-4xl z-10 flex flex-col gap-10 md:gap-14 h-full items-center justify-center text-center text-white px-6">
-          <div class="flex flex-col justify-center items-center gap-4">
-            <h1 class="text-4xl sm:text-5xl font-extrabold leading-none tracking-[0.08em] animate-fadeInUp">OOTTAT
-              TATTOO</h1>
-            <p
-              class="text-2xl sm:text-4xl uppercase skew-x-[-100px] italic text-accent tracking-[0.01em] leading-none font-extrabold animate-fadeInUp200">
-              Artistry meets luxury</p>
-            <p
-              class="text-[clamp(10px,2vw,13px)] mt-[0.5rem] uppercase tracking-[0.1em] font-extralight text-white/60 animate-fadeInUp400">
-              Black & grey, realism, geometric & lettering
-              •
-              Assendelft's luxury tattoo atelier</p>
+          class="relative w-full max-w-3xl z-10 flex flex-col gap-10 md:gap-14 h-full items-center justify-start text-white px-6">
+          <div class="flex flex-col justify-start items-center gap-6">
+            <p class="text-3xl sm:text-4xl md:text-6xl text-white/85 animate-fadeInUp200 font-playfair">
+              Een tattoo is een <strong>verhaal</strong> dat je met je <strong>meedraagt</strong>.
+            </p>
+            <p class="text-[13px] w-full sm:text-base text-white/85 tracking-[0.02em] animate-fadeInUp200">
+              Strak lijnwerk, realistische designs en een custom ontwerp speciaal voor jou gemaakt. Wij zijn
+              gespecialiseerd in Realism, Geometric, Black & Grey en Lettering.</p>
           </div>
-          <span class="w-full h-[1px] bg-white/10 animate-fadeInUp600"></span>
-          <div class="w-full flex flex-col justify-center items-center gap-6">
-            <div class="w-full flex flex-wrap justify-evenly items-center gap-4">
-              <a href="#reviews" aria-label="Bekijk onze reviews"
-               class="flex flex-col gap-3 animate-fadeInUp700" data-scroll-fade data-scroll-axis="x"
-                data-scroll-distance="-22">
-                <div class="flex gap-2 items-center">
-                  <img src="./assets/icons/google-icon-white.jpg" alt="Google icon" class="h-6 w-6" />
-                  <span class="text-xl md:text-2xl font-extrabold italic text-accent">★★★★★</span>
-                </div>
-                <span
-                  class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Vijf-sterren
-                  atelier</span>
-              </a>
-              <div class="flex flex-col gap-3 animate-fadeInUp800" data-scroll-fade data-scroll-axis="x"
-                data-scroll-distance="-22">
-                <span class="text-3xl md:text-4xl uppercase font-extrabold">Est.<span
-                    class="text-xl md:text-2xl font-extrabold italic text-accent"> 2023</span></span>
-                <span class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Modern
-                  tattoo atelier</span>
-              </div>
-              <div class="flex flex-col gap-3 animate-fadeInUp900" data-scroll-fade data-scroll-axis="x"
-                data-scroll-distance="-22">
-                <span class="text-3xl md:text-4xl font-extrabold"><span
-                    class="text-xl font-extrabold italic text-accent">Custom
-                  </span>Tattoos</span>
-                <span class="text-[9px] md:text-[11px] uppercase tracking-[0.1em] font-extralight text-white/60">Design
-                  zoals jij het wilt</span>
-              </div>
-            </div>
+          <div class="w-full flex flex-col justify-center items-start gap-6">
             <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
-              target="_blank" class="group flex gap-2 button-primary" data-scroll-fade data-scroll-axis="x"
-              data-scroll-distance="-12">
+              target="_blank" class="group flex gap-2 button-primary animate-fadeInUp400">
               Afspraak maken
               <span class="group-hover:translate-x-1 duration-300">→</span>
             </a>
+            <div class="flex justify-start items-center animate-fadeInUp600">
+              <div class="relative flex -space-x-3 w-full">
+                <img src="./assets/images/design-25.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-13.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-11.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-20.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-9.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-19.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-22.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+                <img src="./assets/images/design-23.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
+                  class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
+              </div>
+              <p class="text-xs mt-[0.5rem] font-extralight text-start text-white/85 w-full">
+                100+ tevreden klanten gingen je voor </p>
+            </div>
           </div>
         </div>
       </div>
@@ -135,12 +123,12 @@
         <div class="relative w-full">
           <div class="w-[80%] sm:h-[70%] md:w-[90%]">
             <img src="./assets/images/impression-1.jpg" alt="Tattoo artiest aan het werk" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="-22"
+              data-scroll-axis="x" data-scroll-distance="-22" data-scroll-start="0.80" data-scroll-end="0.25"
               class="h-auto w-full object-cover h-[350px] sm:h-[550px] rounded-[4px]" />
           </div>
           <div class="absolute right-0 top-[33.3%] w-1/2">
             <img src="./assets/images/impression-2.jpg" alt="Studio sfeer en consult" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="15" data-scroll-start="0.98"
+              data-scroll-axis="x" data-scroll-distance="15" data-scroll-start="1" data-scroll-end="0"
               class="absolute right-0 rounded-[3px] shadow-[-6px_7px_8px_#00000063]" />
           </div>
         </div>
@@ -155,12 +143,13 @@
             </div>
             <p class="text-sm leading-relaxed text-white/80" data-scroll-fade data-scroll-axis="x"
               data-scroll-distance="18">
-              Oottat Tattoo, opgericht door Guido Pruim, is uitgegroeid tot een onderscheidende studio in de 
+              Oottat Tattoo, opgericht door Guido Pruim, is uitgegroeid tot een onderscheidende studio in de
               Zaanse tattoo-scene en biedt custom tattoo's in een schoon, professioneel en rustig atelier.
             </p>
             <p class="text-sm leading-relaxed text-white/80" data-scroll-fade data-scroll-axis="x"
               data-scroll-distance="18">
-              Wij gebruiken altijd een schone werkplek, goede apparatuur en een professionele aanpak zodat jij ontspannen je 
+              Wij gebruiken altijd een schone werkplek, goede apparatuur en een professionele aanpak zodat jij
+              ontspannen je
               tattoo kunt laten zetten.
             </p>
           </div>
@@ -766,12 +755,11 @@
 
             <article
               class="w-[80vw] min-h-[350px] justify-center flex flex-col gap-2 max-w-[200px] shrink-0 snap-start overflow-hidden rounded-[5px] shadow-[0_18px_40px_rgba(0,0,0,0.35)] transition hover:shadow-[0_24px_48px_rgba(0,0,0,0.45)] sm:w-[200px]">
-              <a href="galerij.html" class="group w-full flex gap-2 button-secondary">
-                Bekijk fotogalerij
-                <span class="group-hover:translate-x-1 duration-300">→</span>
-              </a>
-              <a href="https://www.instagram.com/oottattattoo.nl" target="_blank" rel="noopener noreferrer"
+              <a href="galerij.html" target="_blank" rel="noopener noreferrer"
                 class="group w-full flex gap-2 button-primary hover:!shadow-none">
+                Bekijk fotogalerij
+              </a>
+              <a href="https://www.instagram.com/oottattattoo.nl" class="group w-full flex gap-2 button-secondary">
                 <img src="./assets/icons/instagram-logo-white.svg" alt="" aria-hidden="true"
                   class="relative z-10 h-4 w-4" />
                 <span class="relative z-10">Bekijk instagram</span>
@@ -973,35 +961,26 @@
 
     <!-- Boek nu CTA -->
     <section id="boek" class="bg-black text-primary">
-      <div class="mx-auto w-full max-w-5xl px-6 pb-16" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
-        <div
-          class="relative flex flex-col items-start justify-between gap-8 overflow-hidden rounded-[20px] border border-white/10 bg-gradient-to-br from-black/90 via-charcoal/30 to-[#3a2f1d]/70 p-8 md:flex-row md:items-center md:gap-10">
-          <span aria-hidden="true"
-            class="cta-shimmer pointer-events-none absolute -inset-1 bg-gradient-to-r from-transparent via-white/25 to-transparent mix-blend-screen blur-sm"></span>
-          <div class="relative z-10 max-w-2xl" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+      <div
+        class="flex w-full border border-white/5 bg-gradient-to-br from-black/90 via-charcoal/30 to-[#3a2f1d]/70 md:flex-row md:items-center md:gap-10">
+        <div class="mx-auto w-full max-w-7xl px-6 py-12 md:py-16 flex flex-col items-start justify-between gap-8">
+          <div class="relative z-10 max-w-2xl">
             <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
-              Heb je een tattoo in gedachten? ☑️
+              Tattoo in gedachten?
             </div>
-            <h2 class="text-3xl font-extrabold uppercase sm:text-4xl">Bespreek het met ons</h2>
+            <h2 class="text-3xl font-extrabold uppercase sm:text-4xl">Deel je idee </h2>
             <p class="mt-3 text-sm text-white/70">
-              Deel je ideeën, illustraties en wanneer je hem wilt plaatsen.
+              Deel je gedachten, illustraties, waar je hem wilt en wanneer je hem wilt plaatsen.
             </p>
             <p class="mt-2 text-sm text-white/70">
-              Plannen we samen een kennismakingsgesprek in om alles door te nemen en een plan te maken.
+              Plan samen een kennismakingsgesprek in om alles door te nemen en een plan te maken.
             </p>
           </div>
           <div class="relative z-10 flex flex-col gap-2 w-max">
             <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20tattoo%20met%20je%20willen%20bespreken."
-              target="_blank" class="group w-full flex gap-2 button-primary text-nowrap !shadow-none" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26" data-scroll-start="1.2">
+              target="_blank" class="group w-full flex gap-2 button-secondary text-nowrap !shadow-none">
               Bericht sturen
               <span class="group-hover:translate-x-1 duration-300">→</span>
-            </a>
-            <a href="tel:+31610979663" class="group w-full flex gap-2 button-secondary" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26" data-scroll-start="1.2">
-              <img src="./assets/icons/phone.svg" alt="" aria-hidden="true"
-                class="relative z-10 h-4 w-4 group-hover:-translate-x-1 duration-300" />
-              <span class="relative z-10 text-nowrap">Bellen</span>
             </a>
           </div>
         </div>

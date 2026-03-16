@@ -5,6 +5,7 @@ const menuItems = mobileMenu ? mobileMenu.querySelectorAll(".menu-item") : [];
 const lineTop = document.querySelector("[data-line-top]");
 const lineMiddle = document.querySelector("[data-line-middle]");
 const lineBottom = document.querySelector("[data-line-bottom]");
+const siteHeader = document.querySelector("[data-site-header]");
 
 if (toggleButton && mobileMenu && mobilePanel) {
   const openMenu = () => {
@@ -73,4 +74,40 @@ if (toggleButton && mobileMenu && mobilePanel) {
       closeMenu();
     }
   });
+}
+
+if (siteHeader) {
+  const glassClasses = [
+    "bg-black/80",
+    "backdrop-blur-lg",
+    "border-white/10",
+    "shadow-[0_12px_30px_rgba(15,23,42,0.2)]",
+  ];
+
+  const applyGlass = () => {
+    const shouldApply = window.scrollY > 12;
+    if (shouldApply) {
+      siteHeader.classList.add(...glassClasses);
+      siteHeader.classList.remove("bg-transparent", "border-transparent");
+      return;
+    }
+
+    siteHeader.classList.remove(...glassClasses);
+    siteHeader.classList.add("bg-transparent", "border-transparent");
+  };
+
+  let isTicking = false;
+  const onScroll = () => {
+    if (isTicking) {
+      return;
+    }
+    isTicking = true;
+    window.requestAnimationFrame(() => {
+      applyGlass();
+      isTicking = false;
+    });
+  };
+
+  applyGlass();
+  window.addEventListener("scroll", onScroll, { passive: true });
 }

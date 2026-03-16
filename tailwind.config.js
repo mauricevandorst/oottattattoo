@@ -15,6 +15,7 @@ module.exports = {
         display: ['"Bebas Neue"', "sans-serif"],
         sans: ['"Montserrat"', "sans-serif"],
         montserrat: ['"Montserrat"', "sans-serif"],
+        playfair: ['"Playfair Display"', "Georgia", '"Times New Roman"', "serif"],
       },
       keyframes: {
         fadeInUp: {
@@ -63,6 +64,96 @@ module.exports = {
           "38.5%": { opacity: "0" },
           "100%": { opacity: "0" },
         },
+        logoMask: {
+          "0%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "18.75%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "21.75%": {
+            maskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "25.75%": {
+            maskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            maskSize: "130% 100%",
+            WebkitMaskSize: "130% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "26.75%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "150% 100%",
+            WebkitMaskSize: "150% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "31%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "33.5%": {
+            maskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "37.5%": {
+            maskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            WebkitMaskImage:
+              "linear-gradient(to right, transparent, black 18%, black 82%, transparent)",
+            maskSize: "130% 100%",
+            WebkitMaskSize: "130% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "38.5%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "150% 100%",
+            WebkitMaskSize: "150% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+          "100%": {
+            maskImage: "none",
+            WebkitMaskImage: "none",
+            maskSize: "100% 100%",
+            WebkitMaskSize: "100% 100%",
+            maskPosition: "center",
+            WebkitMaskPosition: "center",
+          },
+        },
       },
       animation: {
         fadeInUp: "fadeInUp 0.9s ease-out both",
@@ -80,6 +171,7 @@ module.exports = {
         logoSwapB: "logoSwapB 16s ease-in-out infinite",
         logoEdgeLeft: "logoEdgeLeft 16s ease-in-out infinite",
         logoEdgeRight: "logoEdgeRight 16s ease-in-out infinite",
+        logoMask: "logoMask 16s ease-in-out infinite",
       },
     },
   },
