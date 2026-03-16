@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="nl">
 
 <head>
@@ -17,7 +17,18 @@
 
 <body class="bg-black text-primary font-sans">
 
-  <header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
+  
+  <div
+    class="fixed inset-0 z-40 flex items-center justify-center bg-black opacity-0 pointer-events-none"
+    data-intro-overlay>
+    <div
+      class="flex flex-col items-center gap-2 text-primary opacity-0 scale-90 transition-all duration-700 ease-out"
+      data-intro-logo>
+      <span class="text-4xl sm:text-6xl tracking-[0.35em] font-semibold">OOTTAT</span>
+      <span class="text-[11px] sm:text-sm uppercase tracking-[0.5em] text-white/80">Tattoo atelier</span>
+    </div>
+  </div>
+<header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
     <div class="mx-auto flex h-full items-center justify-between px-6">
       <button
         class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
@@ -57,7 +68,7 @@
     </div>
   </header>
 
-  <main class="overflow-x-hidden">
+  <main class="overflow-x-hidden pt-20">
 
     <!-- Collega galerij -->
     <section id="gallery" class="bg-black text-primary my-12">
@@ -272,35 +283,28 @@
 
     <!-- Boek nu CTA -->
     <section id="boek" class="bg-black text-primary">
-      <div class="mx-auto w-full max-w-5xl px-6 pb-16" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+      <div
+        class="flex w-full border border-white/5 bg-gradient-to-br from-black/90 via-charcoal/30 to-[#3a2f1d]/70 md:flex-row md:items-center md:gap-10">
         <div
-          class="relative flex flex-col items-start justify-between gap-8 overflow-hidden rounded-[20px] border border-white/10 bg-gradient-to-br from-black/90 via-charcoal/30 to-[#3a2f1d]/70 p-8 md:flex-row md:items-center md:gap-10">
-          <span aria-hidden="true"
-            class="cta-shimmer pointer-events-none absolute -inset-1 bg-gradient-to-r from-transparent via-white/25 to-transparent mix-blend-screen blur-sm"></span>
-          <div class="relative z-10 max-w-2xl" data-scroll-fade data-scroll-axis="x" data-scroll-distance="26">
+          class="mx-auto w-full max-w-5xl px-6 py-12 md:py-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-8"
+          data-scroll-fade data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="0.80" data-scroll-end="0">
+          <div class="relative z-10 max-w-2xl">
             <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
-              Heb je een tattoo in gedachten? ☑️
+              Tattoo in gedachten?
             </div>
-            <h2 class="text-3xl font-extrabold uppercase sm:text-4xl">Bespreek het met ons</h2>
+            <h2 class="text-3xl font-extrabold uppercase sm:text-4xl">Deel je idee </h2>
             <p class="mt-3 text-sm text-white/70">
-              Deel je ideeën, illustraties en wanneer je hem wilt plaatsen.
+              Deel je gedachten, illustraties, waar je hem wilt en wanneer je hem wilt plaatsen.
             </p>
             <p class="mt-2 text-sm text-white/70">
-              Plannen we samen een kennismakingsgesprek in om alles door te nemen en een plan te maken.
+              Plan samen een kennismakingsgesprek in om alles door te nemen en een plan te maken.
             </p>
           </div>
           <div class="relative z-10 flex flex-col gap-2 w-max">
             <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20tattoo%20met%20je%20willen%20bespreken."
-              target="_blank" class="group w-full flex gap-2 button-primary text-nowrap !shadow-none" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26">
+              target="_blank" class="group w-full flex gap-2 button-secondary text-nowrap !shadow-none">
               Bericht sturen
               <span class="group-hover:translate-x-1 duration-300">→</span>
-            </a>
-            <a href="tel:+31610979663" class="group w-full flex gap-2 button-secondary" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="26">
-              <img src="./assets/icons/phone.svg" alt="" aria-hidden="true"
-                class="relative z-10 h-4 w-4 group-hover:-translate-x-1 duration-300" />
-              <span class="relative z-10 text-nowrap">Bellen</span>
             </a>
           </div>
         </div>
@@ -369,8 +373,8 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x"
-        data-scroll-distance="14" data-scroll-start="1.2">
+          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+            data-scroll-start="1.2">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
             <div class="flex flex-col gap-3 text-sm text-white/70">
               <a class="transition hover:text-accent" href="./">Home</a>
@@ -470,12 +474,13 @@
         <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
           target="_blank" class="group mt-4 flex gap-2 button-primary">
           Boek nu
-          <span class="group-hover:translate-x-1 duration-300">→</span>
+          <span class="group-hover:translate-x-1 duration-300">?</span>
         </a>
       </nav>
     </div>
   </div>
 
+  <script src="./js/intro-overlay.js"></script>
   <script src="./js/current-year.js"></script>
   <script src="./js/header-menu.js"></script>
   <script src="./js/hero-video.js"></script>

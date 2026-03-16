@@ -16,7 +16,18 @@
 
 <body class="bg-black text-primary font-sans">
 
-  <header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
+  
+  <div
+    class="fixed inset-0 z-40 flex items-center justify-center bg-black opacity-0 pointer-events-none"
+    data-intro-overlay>
+    <div
+      class="flex flex-col items-center gap-2 text-primary opacity-0 scale-90 transition-all duration-700 ease-out"
+      data-intro-logo>
+      <span class="text-4xl sm:text-6xl tracking-[0.35em] font-semibold">OOTTAT</span>
+      <span class="text-[11px] sm:text-sm uppercase tracking-[0.5em] text-white/80">Tattoo atelier</span>
+    </div>
+  </div>
+<header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
     <div class="mx-auto flex h-full items-center justify-between px-6">
       <button
         class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
@@ -56,7 +67,7 @@
     </div>
   </header>
 
-  <main class="overflow-x-hidden">
+  <main class="overflow-x-hidden pt-20">
     <section class="bg-black text-primary">
       <div class="mx-auto w-full max-w-4xl px-6 py-12 md:py-16">
         <div class="mb-10 flex flex-col gap-4">
@@ -229,8 +240,8 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x"
-        data-scroll-distance="14" data-scroll-start="1.2">
+          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+            data-scroll-start="1.2">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
             <div class="flex flex-col gap-3 text-sm text-white/70">
               <a class="transition hover:text-accent" href="./">Home</a>
@@ -335,6 +346,7 @@
     </div>
   </div>
 
+  <script src="./js/intro-overlay.js"></script>
   <script src="./js/current-year.js"></script>
   <script src="./js/header-menu.js"></script>
   <script src="./js/hero-video.js"></script>
@@ -345,3 +357,5 @@
 </body>
 
 </html>
+
+

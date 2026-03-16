@@ -18,6 +18,16 @@
 </head>
 
 <body class="bg-black text-primary font-sans">
+  <div
+    class="fixed inset-0 z-40 flex items-center justify-center bg-black opacity-0 pointer-events-none"
+    data-intro-overlay>
+    <div
+      class="flex flex-col items-center gap-2 text-primary opacity-0 scale-90 transition-all duration-700 ease-out"
+      data-intro-logo>
+      <span class="text-4xl sm:text-6xl tracking-[0.35em] font-semibold">OOTTAT</span>
+      <span class="text-[11px] sm:text-sm uppercase tracking-[0.5em] text-white/80">Tattoo atelier</span>
+    </div>
+  </div>
 
   <header
     class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown"
@@ -951,19 +961,23 @@
       </div>
 
       <!-- Google reviews Widget -->
-      <div class="mx-auto w-full max-w-6xl px-6 invert">
+      <div class="mx-auto w-full max-w-6xl px-6 invert" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
+        data-scroll-start="0.80" data-scroll-end="0">
         <div class="w-full flex justify-center relative overflow-hidden">
           <div class="max-w-7xl w-full px-2 sm:px-3 lg:px-4" id="featurable-32bff1f8-5511-499b-8329-05e81d6d34bb"
             data-featurable-async>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- Boek nu CTA -->
     <section id="boek" class="bg-black text-primary">
       <div
         class="flex w-full border border-white/5 bg-gradient-to-br from-black/90 via-charcoal/30 to-[#3a2f1d]/70 md:flex-row md:items-center md:gap-10">
-        <div class="mx-auto w-full max-w-7xl px-6 py-12 md:py-16 flex flex-col items-start justify-between gap-8">
+        <div
+          class="mx-auto w-full max-w-5xl px-6 py-12 md:py-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-8"
+          data-scroll-fade data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="0.80" data-scroll-end="0">
           <div class="relative z-10 max-w-2xl">
             <div class="mb-3 inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/60">
               Tattoo in gedachten?
@@ -1156,6 +1170,7 @@
     </div>
   </div>
 
+  <script src="./js/intro-overlay.js"></script>
   <script src="./js/current-year.js"></script>
   <script src="./js/header-menu.js"></script>
   <script src="./js/hero-video.js"></script>

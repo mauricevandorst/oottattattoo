@@ -113,4 +113,20 @@
     window.visualViewport.addEventListener("resize", update);
     window.visualViewport.addEventListener("scroll", requestTick, { passive: true });
   }
+
+  if ("ResizeObserver" in window) {
+    let resizeTicking = false;
+    const scheduleResizeUpdate = () => {
+      if (resizeTicking) return;
+      resizeTicking = true;
+      window.requestAnimationFrame(() => {
+        updateBasePositions();
+        update();
+        resizeTicking = false;
+      });
+    };
+
+    const observer = new ResizeObserver(scheduleResizeUpdate);
+    observer.observe(document.body);
+  }
 })();
