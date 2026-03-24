@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 1rem 1.75rem;
+  padding: 0.8rem 1.75rem;
   border-radius: 5px;
   font-size: 0.75rem;
   font-weight: 600;
@@ -21,7 +21,7 @@
   border: 1px solid rgba(82, 82, 82, 0.55);
   background: linear-gradient(90deg, #937137, #c3a191);
   color: white;
-  box-shadow: 2px 3px 11px 0px rgba(198, 164, 90, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+  box-shadow: 2px 3px 11px 0px rgba(198, 164, 90, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.16);
 }
 
 .button-primary::before {
