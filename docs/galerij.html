@@ -16,19 +16,37 @@
 </head>
 
 <body class="bg-black text-primary font-sans">
-
   
-  <div
-    class="fixed inset-0 z-40 flex items-center justify-center bg-black opacity-0 pointer-events-none"
+  <div class="fixed inset-0 z-[60] flex items-center justify-center bg-black opacity-0 pointer-events-none"
     data-intro-overlay>
-    <div
-      class="flex flex-col items-center gap-2 text-primary opacity-0 scale-90 transition-all duration-700 ease-out"
-      data-intro-logo>
-      <span class="text-4xl sm:text-6xl tracking-[0.35em] font-semibold">OOTTAT</span>
-      <span class="text-[11px] sm:text-sm uppercase tracking-[0.5em] text-white/80">Tattoo studio</span>
+    <div class="w-full max-w-xl px-6" data-intro-logo>
+      <div class="mt-10 space-y-5 opacity-0 translate-y-3 transition-all duration-500" data-intro-timeline>
+        <div class="relative h-12 overflow-hidden text-center">
+          <p class="absolute inset-x-0 top-0 text-sm uppercase tracking-[0.18em] text-white/85 opacity-0 translate-y-4 transition-all duration-500"
+            data-intro-step>
+            Eerst jouw idee
+          </p>
+          <p class="absolute inset-x-0 top-0 text-sm uppercase tracking-[0.18em] text-white/85 opacity-0 translate-y-4 transition-all duration-500"
+            data-intro-step>
+            Dan ontwerpen we het design
+          </p>
+          <p class="absolute inset-x-0 top-0 text-sm uppercase tracking-[0.18em] text-white/85 opacity-0 translate-y-4 transition-all duration-500"
+            data-intro-step>
+            Daarna krijg jij een kunstwerk
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="h-[2px] w-full overflow-hidden rounded-full bg-white/20">
+            <div class="h-full w-full origin-left scale-x-0 rounded-full bg-white transition-transform duration-150"
+              data-intro-progress></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-<header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
+
+  <header class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown" data-site-header>
     <div class="mx-auto flex h-full items-center justify-between px-6">
       <button
         class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
@@ -88,7 +106,8 @@
         </div>
 
         <div
-          class="grid grid-cols-2 gap-3 auto-rows-[140px] sm:grid-cols-3 sm:auto-rows-[160px] md:gap-4 md:auto-rows-[250px] lg:grid-cols-4 lg:auto-rows-[300px] animate-fadeInUp400">
+          class="grid grid-cols-2 gap-3 auto-rows-[140px] sm:grid-cols-3 sm:auto-rows-[160px] md:gap-4 md:auto-rows-[250px] lg:grid-cols-4 lg:auto-rows-[300px] animate-fadeInUp400"
+          data-lightbox-gallery>
           <div class="group relative overflow-hidden rounded-sm bg-white/5" data-scroll-fade data-scroll-axis="x"
             data-scroll-distance="26">
             <img src="./assets/images/design-22.jpg" alt="Tattoo close-up"
@@ -454,6 +473,41 @@
 
   </main>
 
+  <div
+    class="fixed inset-0 z-[80] flex items-center justify-center bg-black/90 p-4 opacity-0 invisible pointer-events-none transition-opacity duration-300 sm:p-8"
+    data-lightbox-modal role="dialog" aria-modal="true" aria-label="Afbeelding vergroten">
+    <button type="button"
+      class="absolute right-4 top-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-3xl leading-none text-white transition hover:text-white/70"
+      data-lightbox-close aria-label="Sluit lightbox">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <figure
+      class="w-full max-w-6xl translate-y-3 scale-95 transition duration-300"
+      data-lightbox-panel>
+      <div class="relative flex w-full items-center justify-center">
+        <button type="button"
+          class="absolute left-2 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/25 bg-black/60 text-white transition hover:bg-white hover:text-black sm:left-4 sm:h-11 sm:w-11"
+          data-lightbox-prev aria-label="Vorige afbeelding">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <img src="" alt=""
+          class="max-h-[78vh] w-auto max-w-full select-none rounded-md object-contain shadow-[0_16px_48px_rgba(0,0,0,0.45)] touch-pan-y sm:max-h-[82vh]"
+          data-lightbox-image />
+        <button type="button"
+          class="absolute right-2 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/25 bg-black/60 text-white transition hover:bg-black/30 sm:right-4 sm:h-11 sm:w-11"
+          data-lightbox-next aria-label="Volgende afbeelding">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </figure>
+  </div>
+
   <div id="mobile-menu"
     class="fixed inset-0 z-40 flex items-start justify-center bg-black pt-20 opacity-0 pointer-events-none backdrop-blur transition-all duration-500 w-[80vw] max-w-[300px]"
     aria-hidden="true" data-mobile-menu>
@@ -467,7 +521,7 @@
         </a>
         <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[0ms]"
           href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken.">
-          <span class="group-hover:text-white/60 duration-300">Nu boeken</span>
+          <span class="group-hover:text-white/60 duration-300">Afspraak maken</span>
           <img src="./assets/icons/chevron-right.svg" alt=""
             class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
         </a>
@@ -510,6 +564,7 @@
   <script src="./js/hero-video.js"></script>
   <script src="./js/caption-more.js"></script>
   <script src="./js/gallery-carousel.js"></script>
+  <script src="./js/gallery-lightbox.js"></script>
   <script src="./js/smooth-scroll.js"></script>
   <script src="./js/scroll-reveal.js"></script>
 </body>

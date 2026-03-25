@@ -77,12 +77,16 @@ if (toggleButton && mobileMenu && mobilePanel) {
 }
 
 if (siteHeader) {
+  const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
   const glassClasses = [
     "bg-black/80",
-    "backdrop-blur-lg",
     "border-white/10",
     "shadow-[0_12px_30px_rgba(15,23,42,0.2)]",
   ];
+
+  if (!isCoarsePointer) {
+    glassClasses.push("backdrop-blur-lg");
+  }
 
   const applyGlass = () => {
     const shouldApply = window.scrollY > 12;

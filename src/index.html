@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description"
     content="Boek jouw custom tattoo in Amsterdam. Persoonlijk ontwerp, premium studio en heldere begeleiding van intake tot nazorg." />
+  <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
@@ -19,12 +20,29 @@
 </head>
 
 <body class="bg-black text-primary font-sans">
-  <div class="fixed inset-0 z-40 flex items-center justify-center bg-black opacity-0 pointer-events-none"
+
+  <div class="fixed inset-0 z-[60] flex items-center justify-center bg-black opacity-0 pointer-events-none"
     data-intro-overlay>
-    <div class="flex flex-col items-center gap-2 text-primary opacity-0 scale-90 transition-all duration-700 ease-out"
-      data-intro-logo>
-      <span class="text-4xl sm:text-6xl tracking-[0.35em] font-semibold">OOTTAT</span>
-      <span class="text-[11px] sm:text-sm uppercase tracking-[0.5em] text-white/80">Tattoo studio</span>
+    <div class="w-full max-w-xl px-6" data-intro-logo>
+      <div class="mt-10 space-y-4 opacity-0 translate-y-3 transition-all duration-500" data-intro-timeline>
+        <div class="relative h-12 overflow-hidden text-center">
+          <p class="absolute inset-x-0 top-0 text-sm uppercase tracking-[0.18em] text-white/85 opacity-0 translate-y-4 transition-all duration-500"
+            data-intro-step>
+            Van idee
+          </p>
+          <p class="absolute inset-x-0 top-0 text-sm uppercase tracking-[0.18em] text-white/85 opacity-0 translate-y-4 transition-all duration-500"
+            data-intro-step>
+            Naar kunstwerk.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="h-[2px] w-full overflow-hidden rounded-full bg-white/20">
+            <div class="h-full w-full origin-left scale-x-0 rounded-full bg-white transition-transform duration-150"
+              data-intro-progress></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -76,10 +94,11 @@
     <!-- Hero -->
     <section
       class="relative flex justify-center items-end pb-10 lg:pb-14 w-full h-[var(--initial-dvh)] min-h-[600px] overflow-hidden">
-      <video autoplay muted loop playsinline data-hero-video class="absolute inset-0 h-full w-full object-cover">
+      <video autoplay muted loop playsinline preload="auto" data-hero-video
+        class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700">
         <source src="./assets/videos/hero-video.mp4" type="video/mp4" />
       </video>
-      <div data-hero-overlay class="absolute inset-0 bg-black/55">
+      <div data-hero-overlay class="absolute inset-0 bg-black/55 opacity-0 transition-opacity duration-700">
       </div>
 
       <div class="flex mx-auto items-center w-full max-w-6xl">
@@ -99,8 +118,8 @@
               Afspraak maken
               <span class="group-hover:translate-x-1 duration-300">→</span>
             </a>
-            <div class="flex justify-start items-center w-full animate-fadeInUp600">
-              <div class="relative flex -space-x-3 w-full">
+            <div class="flex justify-start items-center gap-3 w-full animate-fadeInUp600">
+              <div class="relative flex -space-x-3 shrink-0">
                 <img src="./assets/images/design-25.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
                   class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
                 <img src="./assets/images/design-13.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
@@ -118,7 +137,7 @@
                 <img src="./assets/images/design-23.jpg" alt="Voorbeeld van een tattoo in de stijl van Oottat Tattoo"
                   class="h-7 w-7 border-[2px] border-white/90 rounded-full " />
               </div>
-              <p class="text-xs mt-[0.5rem] font-extralight text-start text-white/85 w-full">
+              <p class="text-xs font-extralight text-start text-white/85">
                 100+ tevreden klanten gingen je voor </p>
             </div>
           </div>
@@ -130,11 +149,14 @@
     <section id="over-ons" class="relative bg-black text-primary">
       <div aria-hidden="true"
         class="pointer-events-none absolute inset-0 [-webkit-mask-image:linear-gradient(to_bottom,transparent_0,#000_8%,#000_52%,transparent_66%,transparent_100%)] [mask-image:linear-gradient(to_bottom,transparent_0,#000_8%,#000_52%,transparent_66%,transparent_100%)]">
-        <div
+        <div data-scroll-fade data-scroll-axis="x" data-scroll-start="0.80" data-scroll-end="0.25"
           class="absolute -right-20 bottom-[-14rem] h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.01)_32%,transparent_76%)] blur-3xl">
         </div>
-        <div
-          class="absolute inset-x-0 top-0 h-[60%] bg-[radial-gradient(rgba(255,255,255,0.22)_0.9px,transparent_0.9px)] [background-size:24px_24px] opacity-65 [-webkit-mask-image:linear-gradient(to_right,transparent_0,#000_9%,#000_91%,transparent_100%)] [mask-image:linear-gradient(to_right,transparent_0,#000_9%,#000_91%,transparent_100%)]">
+        <div data-scroll-fade data-scroll-axis="x" data-scroll-start="0.80" data-scroll-end="0.25"
+          class="absolute inset-x-0 top-0 h-[50%] opacity-100 [-webkit-mask-image:linear-gradient(to_right,transparent_0,#000_6%,#000_94%,transparent_100%)] [mask-image:linear-gradient(to_right,transparent_0,#000_6%,#000_94%,transparent_100%)]">
+          <div
+            class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.42)_0.9px,transparent_0.9px)] [background-size:24px_24px] [-webkit-mask-image:linear-gradient(to_bottom,#000_0,#000_78%,transparent_100%)] [mask-image:linear-gradient(to_bottom,#000_0,#000_78%,transparent_100%)]">
+          </div>
         </div>
       </div>
       <img class="relative -top-4 sm:-top-8 lg:-top-16 block w-full" src="./assets/files/mountains-dark.svg" alt=""
@@ -149,8 +171,8 @@
           </div>
           <div class="absolute right-0 top-[33.3%] w-1/2">
             <img src="./assets/images/impression-2.jpg" alt="Studio sfeer en consult" data-scroll-fade
-              data-scroll-axis="x" data-scroll-distance="15" data-scroll-start="1" data-scroll-end="0"
-              class="absolute right-0 rounded-[3px] shadow-[-6px_7px_8px_#00000063]" />
+              data-scroll-axis="x" data-scroll-distance="15" data-scroll-start="1" data-scroll-end="0.25"
+              class="absolute right-0 rounded-[5px] shadow-[-3px_3px_8px_#00000063]" />
           </div>
         </div>
 
@@ -174,7 +196,7 @@
               tattoo kunt laten zetten.
             </p>
           </div>
-          <a href="galerij.html" class="button-secondary" target="_blank" data-scroll-fade data-scroll-axis="x"
+          <a href="galerij.html" class="button-secondary" data-scroll-fade data-scroll-axis="x"
             data-scroll-distance="12" data-scroll-axis="y">
             Bekijk ons werk</a>
         </div>
@@ -183,16 +205,16 @@
 
     <!-- Instagram galerij -->
     <section id="instagram" class="relative overflow-hidden bg-black text-primary">
-      <div aria-hidden="true"
+      <div aria-hidden="true" data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
         class="pointer-events-none absolute inset-0 [-webkit-mask-image:linear-gradient(to_bottom,transparent_0,#000_5%,#000_70%,transparent_80%,transparent_100%)] [mask-image:linear-gradient(to_bottom,transparent_0,#000_5%,#000_70%,transparent_80%,transparent_100%)] md:top-[4rem]">
         <div
-          class="absolute inset-0 bg-[radial-gradient(circle_at_12%_24%,rgba(255,255,255,0.12)_0,transparent_34%),radial-gradient(circle_at_88%_76%,rgba(255,255,255,0.10)_0,transparent_32%)] opacity-50">
+          class="absolute inset-0 bg-[radial-gradient(circle_at_12%_24%,rgba(255,255,255,0.18)_0,transparent_34%),radial-gradient(circle_at_88%_76%,rgba(255,255,255,0.16)_0,transparent_32%)] opacity-70">
         </div>
-        <div
-          class="absolute inset-0 bg-[repeating-linear-gradient(115deg,rgba(255,255,255,0.08)_0,rgba(255,255,255,0.08)_1px,transparent_1px,transparent_78px)] opacity-80">
+        <div data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
+          class="absolute inset-0 bg-[repeating-linear-gradient(115deg,rgba(255,255,255,0.12)_0,rgba(255,255,255,0.12)_1px,transparent_1px,transparent_78px)] opacity-95">
         </div>
-        <div
-          class="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent_0,transparent_58px,rgba(255,255,255,0.05)_58px,rgba(255,255,255,0.05)_59px)] opacity-70">
+        <div data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
+          class="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent_0,transparent_58px,rgba(255,255,255,0.08)_58px,rgba(255,255,255,0.08)_59px)] opacity-85">
         </div>
       </div>
       <div
@@ -210,11 +232,10 @@
           </div>
           <div class="w-full flex justify-center" data-scroll-fade data-scroll-axis="x" data-scroll-distance="20">
             <p class="w-full max-w-[80vw] text-center max-w-2xl text-sm leading-relaxed text-white/70">
-              Bekijk een paar van onze posts om de stijl en sfeer van het studio en het werk te proeven.
+              Bekijk een paar van onze posts om onze stijl, de sfeer van de studio en het werk te proeven.
             </p>
           </div>
         </div>
-
         <div class="group relative" data-carousel>
           <div
             class="carousel-scrollbar-hidden flex snap-x snap-mandatory select-none items-stretch gap-6 overflow-x-auto pb-3 pr-6 scroll-smooth lg:cursor-grab"
@@ -303,31 +324,33 @@
               </div>
 
               <div>
-                <img class="h-56 w-full object-cover transition duration-500" src="./assets/images/design-4.jpg"
-                  alt="Voorbeeld van een recente Instagram-post" loading="lazy" />
+                <video class="h-56 w-full object-cover transition duration-500" autoplay muted loop playsinline
+                  preload="none" data-instagram-lazy-video aria-label="Video van een recente Instagram-post">
+                  <source data-src="./assets/videos/instagram-video-1.mp4" type="video/mp4" />
+                </video>
               </div>
 
               <div class="space-y-3 px-4 pt-3">
                 <div class="flex items-center justify-between">
                   <div class="flex items-center gap-4">
-                    <a href="https://www.instagram.com/p/DTTJQJGjAKJ/" target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
                       aria-label="Like op Instagram post"
                       class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
                       <img src="./assets/icons/heart.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
                     </a>
-                    <a href="https://www.instagram.com/p/DTTJQJGjAKJ/" target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
                       aria-label="Comment op Instagram post"
                       class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
                       <img src="./assets/icons/comment.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
                     </a>
-                    <a href="https://www.instagram.com/p/DTTJQJGjAKJ/" target="_blank" rel="noopener noreferrer"
+                    <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
                       aria-label="Deel via Instagram DM"
                       class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
                       <img src="./assets/icons/paper-plane.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
                     </a>
                   </div>
 
-                  <a href="https://www.instagram.com/p/DTTJQJGjAKJ/" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.instagram.com/oottattattoo.nl/" target="_blank" rel="noopener noreferrer"
                     aria-label="Opslaan op Instagram"
                     class="inline-flex h-max w-max items-center justify-center transition hover:opacity-80">
                     <img src="./assets/icons/save.svg" alt="" aria-hidden="true" class="h-5 w-5 invert" />
@@ -1003,24 +1026,24 @@
         <div
           class="relative overflow-hidden rounded-[1.5rem] border border-white/15 bg-black text-white shadow-[0_20px_48px_rgba(0,0,0,0.55)] sm:rounded-[2rem] sm:shadow-[0_34px_70px_rgba(0,0,0,0.65)]">
           <div aria-hidden="true"
-            class="pointer-events-none absolute -left-24 -top-16 h-60 w-60 rounded-full bg-[#0e0e0e]"></div>
+            class="pointer-events-none absolute -left-24 -top-16 h-60 w-60 rounded-full bg-slate-300/[0.12]"></div>
           <div aria-hidden="true"
-            class="pointer-events-none absolute -right-24 top-24 h-72 w-72 rounded-full bg-slate-300/[0.04]"></div>
+            class="pointer-events-none absolute -right-24 top-24 h-72 w-72 rounded-full bg-slate-300/[0.10]"></div>
           <div aria-hidden="true"
-            class="pointer-events-none absolute -bottom-16 h-56 w-56 rounded-full bg-slate-500/[0.035]"></div>
+            class="pointer-events-none absolute -bottom-16 h-56 w-56 rounded-full bg-slate-500/[0.13]"></div>
 
           <div class="relative z-10 grid gap-8 p-5 sm:gap-10 sm:p-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 lg:p-14">
             <div class="flex flex-col">
               <div class="mb-5 flex flex-wrap items-start gap-3 sm:mb-6 sm:items-center">
                 <div class="flex -space-x-3">
                   <img src="./assets/images/design-25.jpg" alt="Klant met tattoo van Oottat Tattoo"
-                    class="h-10 w-10 rounded-full border-[5px] border-[#0e0e0e] object-cover sm:h-12 sm:w-12"
+                    class="h-10 w-10 rounded-full border-[5px] border-[#191a1b] object-cover sm:h-12 sm:w-12"
                     loading="lazy" />
                   <img src="./assets/images/design-13.jpg" alt="Detail van custom tattoo werk"
-                    class="h-10 w-10 rounded-full border-[5px] border-[#0e0e0e] object-cover sm:h-12 sm:w-12"
+                    class="h-10 w-10 rounded-full border-[5px] border-[#191a1b] object-cover sm:h-12 sm:w-12"
                     loading="lazy" />
                   <img src="./assets/images/design-11.jpg" alt="Voorbeeld van realistische tattoo"
-                    class="h-10 w-10 rounded-full border-[5px] border-[#0e0e0e] object-cover sm:h-12 sm:w-12"
+                    class="h-10 w-10 rounded-full border-[5px] border-[#191a1b] object-cover sm:h-12 sm:w-12"
                     loading="lazy" />
                 </div>
                 <p class="max-w-[32ch] text-sm leading-snug text-slate-300">
@@ -1029,7 +1052,7 @@
               </div>
 
               <h2 class="max-w-2xl text-[1.9rem] font-extrabold leading-[1.08] sm:text-5xl">
-                Idee in je hoofd, maar nog geen duidelijk ontwerp?
+                Idee in je hoofd, maar nog geen ontwerp?
               </h2>
               <p class="mt-4 max-w-xl text-sm leading-relaxed text-slate-300 sm:mt-5 sm:text-base">
                 Deel je voorbeelden, plaatsing en stijlvoorkeuren. Daarna plannen we een kennismaking en bouwen we samen
@@ -1058,8 +1081,7 @@
     <footer class="relative bg-black text-primary border-t border-white/10">
       <div aria-hidden="true"
         class="pointer-events-none absolute -top-24 right-10 h-44 w-44 rounded-full bg-accent/10 blur-3xl"></div>
-      <div class="mx-auto w-full max-w-6xl px-6 pt-12 pb-4 md:pt-16" data-scroll-fade data-scroll-axis="x"
-        data-scroll-distance="14" data-scroll-start="0.85">
+      <div class="mx-auto w-full max-w-6xl px-6 pt-12 pb-4 md:pt-16">
         <div class="grid gap-10 md:grid-cols-[1.1fr_0.9fr_0.9fr]">
           <div class="flex flex-col gap-4">
             <div class="flex flex-col gap-2">
@@ -1072,21 +1094,18 @@
             </p>
             <div class="flex flex-wrap gap-3">
               <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20consult%20bij%20je%20willen%20boeken."
-                target="_blank" class="group flex items-center gap-2 button-primary !shadow-none" data-scroll-fade
-                data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="2">
+                target="_blank" class="group flex items-center gap-2 button-primary !shadow-none">
                 Boek consult
                 <span class="group-hover:translate-x-1 duration-300">→</span>
               </a>
-              <a href="galerij.html" class="group flex items-center gap-2 button-secondary" data-scroll-fade
-                data-scroll-axis="x" data-scroll-distance="14" data-scroll-start="2">
+              <a href="galerij.html" class="group flex items-center gap-2 button-secondary">
                 Bekijk werk
                 <span class="group-hover:translate-x-1 duration-300">→</span>
               </a>
             </div>
           </div>
 
-          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
-            data-scroll-start="0.85">
+          <div class="flex flex-col gap-4">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Contact</div>
             <div class="flex flex-col gap-3 text-sm text-white/80">
               <a class="inline-flex items-center gap-3 transition hover:text-accent" href="tel:+31610979663">
@@ -1117,8 +1136,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-4" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14"
-            data-scroll-start="1.2">
+          <div class="flex flex-col gap-4">
             <div class="text-xs uppercase tracking-[0.2em] text-white/60">Snel naar</div>
             <div class="flex flex-col gap-3 text-sm text-white/70">
               <a class="transition hover:text-accent" href="#">Home</a>
@@ -1185,7 +1203,7 @@
         </a>
         <a class="group menu-item flex items-center justify-between text-xs uppercase py-4 border-b-[1px] border-white/20 font-bold opacity-0 -translate-y-2 transition-all duration-500 delay-[0ms]"
           href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken.">
-          <span class="group-hover:text-white/60 duration-300">Nu boeken</span>
+          <span class="group-hover:text-white/60 duration-300">Afspraak maken</span>
           <img src="./assets/icons/chevron-right.svg" alt=""
             class="text-white w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
         </a>
@@ -1226,6 +1244,7 @@
   <script src="./js/current-year.js"></script>
   <script src="./js/header-menu.js"></script>
   <script src="./js/hero-video.js"></script>
+  <script src="./js/instagram-video-lazy.js"></script>
   <script src="./js/caption-more.js"></script>
   <script src="./js/gallery-carousel.js"></script>
   <script src="./js/smooth-scroll.js"></script>
