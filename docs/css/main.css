@@ -1566,6 +1566,10 @@ video {
   scroll-snap-align: start;
 }
 
+.snap-always {
+  scroll-snap-stop: always;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -2607,8 +2611,16 @@ video {
     right: 1rem;
   }
 
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .sm\:mb-6 {
     margin-bottom: 1.5rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
 
   .sm\:mt-5 {
@@ -2617,14 +2629,6 @@ video {
 
   .sm\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .sm\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .sm\:flex {
