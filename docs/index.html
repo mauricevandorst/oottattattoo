@@ -18,18 +18,21 @@
   <link rel="stylesheet" href="./js/gallery-carousel.css" />
   <script src="./js/initial-dvh.js"></script>
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N9KXNX55');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N9KXNX55');</script>
   <!-- End Google Tag Manager -->
 </head>
 
 <body class="bg-black text-primary font-sans">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9KXNX55"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9KXNX55" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <div class="fixed inset-0 z-[60] flex items-center justify-center bg-black opacity-0 pointer-events-none"
@@ -60,9 +63,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header
     class="fixed inset-x-0 top-0 z-50 h-20 border-b border-transparent bg-transparent backdrop-blur-0 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-300 animate-fadeInDown"
     data-site-header>
-    <div class="mx-auto flex h-full items-center justify-between px-6">
+    <div class="mx-auto flex h-full items-center justify-between px-6 lg:px-12 xl:px-16">
       <button
-        class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+        class="relative z-50 flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent lg:hidden"
         type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
         <span class="sr-only">Open menu</span>
         <span class="relative flex h-4 w-5 flex-col justify-between">
@@ -92,7 +95,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </span>
       </a>
 
-      <a class="flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent"
+      <nav class="hidden items-center gap-7 text-xs tracking-[0.16em] text-white/80 lg:flex">
+        <a class="transition hover:text-primary uppercase" href="./">Home</a>
+        <a class="transition hover:text-primary uppercase" href="./#over-ons">Over ons</a>
+        <a class="transition hover:text-primary uppercase" href="./galerij.html">Galerij</a>
+        <a class="transition hover:text-primary uppercase" href="./#verzorging">Verzorgingstips</a>
+        <a href="https://wa.me/31610979663?text=Hoi%20Guido%2C%20ik%20zou%20graag%20een%20afspraak%20bij%20je%20willen%20maken."
+          target="_blank" class="button-primary">
+          Afspraak maken
+        </a>
+      </nav>
+
+      <a class="flex h-9 w-9 items-center justify-center rounded-full text-primary transition hover:text-accent lg:hidden"
         href="tel:+31610979663" aria-label="Bel ons">
         <img src="./assets/icons/phone.svg" alt=""
           class="text-white w-7 h-7 transition-transform duration-300 group-hover:translate-x-1" />
@@ -112,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div data-hero-overlay class="absolute inset-0 bg-black/55 opacity-0 transition-opacity duration-700">
       </div>
 
-      <div class="flex mx-auto items-center w-full max-w-6xl">
+      <div class="flex mx-auto items-center w-full max-w-7xl">
         <div
           class="relative w-full max-w-3xl z-10 flex flex-col gap-6 md:gap-8 h-full items-center justify-start text-white px-6">
           <div class="flex flex-col justify-start items-center gap-6">
@@ -218,14 +232,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section id="instagram" class="relative overflow-hidden bg-black text-primary">
       <div aria-hidden="true" data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
         class="pointer-events-none absolute inset-0 [-webkit-mask-image:linear-gradient(to_bottom,transparent_0,#000_5%,#000_70%,transparent_80%,transparent_100%)] [mask-image:linear-gradient(to_bottom,transparent_0,#000_5%,#000_70%,transparent_80%,transparent_100%)] md:top-[4rem]">
-        <div
-          class="absolute inset-0 bg-[radial-gradient(circle_at_12%_24%,rgba(255,255,255,0.18)_0,transparent_34%),radial-gradient(circle_at_88%_76%,rgba(255,255,255,0.16)_0,transparent_32%)] opacity-70">
-        </div>
         <div data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
           class="absolute inset-0 bg-[repeating-linear-gradient(115deg,rgba(255,255,255,0.12)_0,rgba(255,255,255,0.12)_1px,transparent_1px,transparent_78px)] opacity-95">
         </div>
         <div data-scroll-fade data-scroll-axis="x" data-scroll-distance="20"
           class="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent_0,transparent_58px,rgba(255,255,255,0.08)_58px,rgba(255,255,255,0.08)_59px)] opacity-85">
+        </div>
+        <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black via-black/90 to-transparent sm:w-28 lg:w-36">
+        </div>
+        <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black via-black/90 to-transparent sm:w-28 lg:w-36">
         </div>
       </div>
       <div
@@ -1271,4 +1286,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 </html>
-

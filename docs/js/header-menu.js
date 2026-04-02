@@ -74,6 +74,21 @@ if (toggleButton && mobileMenu && mobilePanel) {
       closeMenu();
     }
   });
+
+  const desktopMediaQuery = window.matchMedia("(min-width: 1024px)");
+  const closeOnDesktop = (event) => {
+    if (event.matches) {
+      closeMenu();
+    }
+  };
+
+  if (typeof desktopMediaQuery.addEventListener === "function") {
+    desktopMediaQuery.addEventListener("change", closeOnDesktop);
+  } else if (typeof desktopMediaQuery.addListener === "function") {
+    desktopMediaQuery.addListener(closeOnDesktop);
+  }
+
+  closeOnDesktop(desktopMediaQuery);
 }
 
 if (siteHeader) {

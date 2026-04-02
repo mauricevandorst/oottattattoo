@@ -6,7 +6,6 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.8rem 1.75rem;
-  border-radius: 10px 0 10px 0;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05rem;
@@ -19,6 +18,7 @@
 
 .button-primary {
   border: 1px solid rgba(82, 82, 82, 0.55);
+  border-radius: 10px 0 10px 0;
   background: linear-gradient(90deg, #937137, #c3a191);
   color: white;
   box-shadow: 2px 3px 11px 0px rgba(198, 164, 90, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.16);
@@ -46,6 +46,7 @@
 
 .button-secondary {
   border: 1px solid rgba(234, 217, 175, 0.2);
+  border-radius: 0 10px 0 10px;
   background: rgba(255, 255, 255, 0.04);
   color: rgba(255, 255, 255, 0.92);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
