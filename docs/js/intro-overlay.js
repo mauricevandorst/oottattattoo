@@ -21,6 +21,13 @@ if (overlay && logoContainer) {
     const skipButton = overlay.querySelector("[data-intro-skip]");
 
     const AUTO_DURATION = 1800;
+    const TIMELINE_REVEAL_DELAY = 120;
+    const OVERLAY_FADE_DURATION = 800;
+    const LOGO_FADE_DURATION = 700;
+    const COMPLETE_HIDE_DELAY = Math.max(
+      OVERLAY_FADE_DURATION,
+      LOGO_FADE_DURATION
+    );
     const WHEEL_SPEED = 900;
     const TOUCH_SPEED = 260;
     const KEY_STEP = 0.14;
@@ -105,18 +112,20 @@ if (overlay && logoContainer) {
       logoContainer.classList.add(
         "opacity-0",
         "scale-95",
-        "transition-all",
-        "duration-700"
+        "transition-all"
       );
+      logoContainer.style.transitionDuration = `${LOGO_FADE_DURATION}ms`;
       overlay.classList.remove("opacity-100");
       overlay.classList.add("opacity-0");
 
       window.setTimeout(() => {
         overlay.classList.add("hidden", "pointer-events-none");
+        overlay.style.transitionDuration = "";
+        logoContainer.style.transitionDuration = "";
         document.body.classList.remove("overflow-hidden");
         sessionStorage.setItem(INTRO_STORAGE_KEY, "true");
         window.dispatchEvent(new CustomEvent(INTRO_COMPLETE_EVENT));
-      }, 900);
+      }, COMPLETE_HIDE_DELAY);
     }
 
     const onWheel = (event) => {
@@ -156,7 +165,8 @@ if (overlay && logoContainer) {
 
     document.body.classList.add("overflow-hidden");
     overlay.classList.remove("pointer-events-none");
-    overlay.classList.add("transition-opacity", "duration-800");
+    overlay.classList.add("transition-opacity");
+    overlay.style.transitionDuration = `${OVERLAY_FADE_DURATION}ms`;
 
     requestAnimationFrame(() => {
       overlay.classList.add("opacity-100");
@@ -173,7 +183,7 @@ if (overlay && logoContainer) {
 
         applyProgress(0);
         animationFrameId = window.requestAnimationFrame(tick);
-      }, 120);
+      }, TIMELINE_REVEAL_DELAY);
     });
 
     window.addEventListener("wheel", onWheel, { passive: false });
