@@ -648,6 +648,14 @@
         "reviews": 1,
         "photos": 0
       },
+      "snippet": "Tattoo laten zetten. Guido stelde me direct op mijn gemak, fijne gesprekken en bijna geen pijn. Resultaat is top!",
+      "extracted_snippet": {
+        "original": "Tattoo laten zetten. Guido stelde me direct op mijn gemak, fijne gesprekken en bijna geen pijn. Resultaat is top!",
+        "translated": "Got the tattoo done. Guido immediately made me feel at ease, nice conversations and almost no pain. The result is great!"
+      },
+      "details": {
+        "services": "Tattoo cover-ups & reworkings"
+      },
       "likes": 0,
       "response": {
         "date": "3 weeks ago",

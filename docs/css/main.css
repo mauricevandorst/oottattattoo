@@ -877,13 +877,6 @@ video {
   margin-top: 63px;
 }
 
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
-
 .block {
   display: block;
 }
@@ -2535,12 +2528,6 @@ video {
 
 .transition-\[background-color\2c backdrop-filter\2c box-shadow\2c border-color\] {
   transition-property: background-color,backdrop-filter,box-shadow,border-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[max-height\] {
-  transition-property: max-height;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
