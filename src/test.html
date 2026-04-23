@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Test | Google Reviews</title>
+	<link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body class="bg-black text-primary font-sans min-h-screen">
+	<main class="mx-auto w-full max-w-5xl px-6 py-16 sm:py-24">
+		<section class="rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8">
+			<div class="mb-6 flex flex-col gap-2">
+				<h1 class="text-2xl font-semibold text-white sm:text-3xl">Reviews</h1>
+				<p id="reviews-summary" class="text-xs text-white/80 sm:text-sm">Score en totaal worden geladen...</p>
+			</div>
+
+			<div class="mt-6 flex flex-wrap items-center justify-end gap-3 sm:flex-nowrap sm:justify-start">
+				<button id="reviews-prev" type="button"
+					class="order-2 inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40 sm:order-none"
+					aria-label="Vorige reviews">
+					<svg viewBox="0 0 20 20" class="block size-5" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd"
+							d="M12.79 4.23a.75.75 0 0 1-.02 1.06L8.56 9.25h7.19a.75.75 0 0 1 0 1.5H8.56l4.21 3.96a.75.75 0 1 1-1.02 1.1l-5.5-5.17a.75.75 0 0 1 0-1.1l5.5-5.17a.75.75 0 0 1 1.04-.04Z"
+							clip-rule="evenodd" />
+					</svg>
+				</button>
+
+				<div class="order-1 basis-full min-w-0 overflow-hidden sm:order-none sm:basis-auto sm:flex-1">
+					<div id="reviews-list" class="flex gap-4 transition-transform duration-500 ease-out"></div>
+				</div>
+
+				<button id="reviews-next" type="button"
+					class="order-3 inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40 sm:order-none"
+					aria-label="Volgende reviews">
+					<svg viewBox="0 0 20 20" class="block size-5" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd"
+							d="M7.21 15.77a.75.75 0 0 1 .02-1.06l4.21-3.96H4.25a.75.75 0 0 1 0-1.5h7.19L7.23 5.29a.75.75 0 1 1 1.02-1.1l5.5 5.17a.75.75 0 0 1 0 1.1l-5.5 5.17a.75.75 0 0 1-1.04.04Z"
+							clip-rule="evenodd" />
+					</svg>
+				</button>
+			</div>
+
+			<div id="reviews-dots" class="mt-5 hidden items-center justify-center gap-2 sm:flex" aria-label="Carousel navigatie"></div>
+		</section>
+	</main>
+
+	<script src="./js/google-reviews.js" defer></script>
+</body>
+
+</html>

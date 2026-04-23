@@ -1,0 +1,664 @@
+{
+  "updatedAt": "2026-04-23T08:29:36.361Z",
+  "reviews": [
+    {
+      "position": 1,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjVOLXZhS2FYTE5DTkJCb2FPYm5CTWc%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "2 months ago",
+      "iso_date": "2026-02-10T12:26:32Z",
+      "iso_date_of_last_edit": "2026-02-10T12:26:32Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lESq0MaXN9OC3nKirGWIfQts-6s2fucKNiAkwtDWUT-lO6LgOLWD3RDPvba6wMVQJe3Dayd1UHFbdNqXBftap6hAblKThC6lSBF8BtNh7zMDF6XwMZQRV6dfsKcmLmGdD5qrCAAtEIfRFWg",
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lETMIO6huImQFc6DX5hhJzgTM1CZvkZOAwJ3ZN_5HvXUQochrBkGyaWrzCI5grSXXSUkoXfsvpzcNaq0wbY4tL9e-ReA4z50WO0t-q7axjAxosVoFWGVPdOgMFALm62Ix57jx6uEO7wVX7la",
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lET5h-pqmD30zr5jU6hndSEbbxDZcawm1-ErVi-udktAH1Ys8cECt7k60CBx_EsOWRHl9AY0q0uQJywR6dHLP23JqWbEaABkQ1YOi008-ot5037HmEnC10S3hnzoWF8m28wH-H8VEjTf0653",
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lET1WxmnBjCGIqhZ9uAhV4FuAc5-AQmRQXwqxv6cWn2Nt1zkYHmtuzWlGLrrzmsTd6b-2nxJ2bfpizXs5JrIOgOgYxynogw6CzCRr7PEX9iDXWuhaqP_9yCajicCPcdMjKIO5JtFdI9seBGJ",
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lET74HYaV3ZELJ5cbtn6qR5neYoPaSUTIp0Lu2kERsBPAsZdlS8xaDo6Btir9trDRm1SBCJJkt-Ua-qO0huiyeWTR8Rf251Dj091d3XmQi77QwgmUXazmWYXGMJxwm8hL2To1dz_COIsd_YT"
+      ],
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB",
+      "user": {
+        "name": "Hubert Schüssler",
+        "link": "https://www.google.com/maps/contrib/115054306277800660825?hl=en-US",
+        "contributor_id": "115054306277800660825",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVYtYq6qsb8RJ3ROYkQor7M5gLt-sJ75aqvGZFLYABBoFaGFHOJog=s120-c-rp-mo-ba4-br100",
+        "local_guide": true,
+        "reviews": 105,
+        "photos": 280
+      },
+      "snippet": "Guido neemt de tijd voor je, alles wordt goed doorgesproken middels een intake, tussentijds contact is erg prettig en het uiteindelijke resultaat is prachtig.\nDe sfeer in de zaak/salon is heel relaxed, je kan duidelijk merken dat hier mensen werken met passie voor datgene wat ze doen. Dit is hét adresje voor iedereen in de buurt die een orginele tattoo willen laten zetten.",
+      "extracted_snippet": {
+        "original": "Guido neemt de tijd voor je, alles wordt goed doorgesproken middels een intake, tussentijds contact is erg prettig en het uiteindelijke resultaat is prachtig.\nDe sfeer in de zaak/salon is heel relaxed, je kan duidelijk merken dat hier mensen werken met passie voor datgene wat ze doen. Dit is hét adresje voor iedereen in de buurt die een orginele tattoo willen laten zetten.",
+        "translated": "Guido takes his time with you, discussing everything thoroughly during an intake session. Interim contact is very pleasant, and the final result is beautiful.\nThe atmosphere in the shop/salon is very relaxed; you can clearly tell that the people here are passionate about what they do. This is the go-to place for anyone in the area who wants an original tattoo."
+      },
+      "details": {
+        "services": "Tattoo design",
+        "cleanliness": "Dik in orde en GGD gekeurd."
+      },
+      "translated_details": {
+        "cleanliness": "All in good order and GGD approved."
+      },
+      "likes": 0,
+      "response": {
+        "date": "2 months ago",
+        "iso_date": "2026-02-10T15:53:36Z",
+        "iso_date_of_last_edit": "2026-02-10T15:53:36Z",
+        "snippet": "Dankjewel Hubert voor deze mooie woorden en het vertrouwen. Fijn om te horen dat je de intake, het contact en de sfeer zo prettig hebt ervaren. We doen dit werk met veel passie en het is geweldig als dat ook zo wordt gevoeld. Veel plezier met je tattoo en je bent altijd welkom bij Oottat Tattoo!\n\nGroetjes Guido\n\nOottat Tattoo",
+        "extracted_snippet": {
+          "original": "Dankjewel Hubert voor deze mooie woorden en het vertrouwen. Fijn om te horen dat je de intake, het contact en de sfeer zo prettig hebt ervaren. We doen dit werk met veel passie en het is geweldig als dat ook zo wordt gevoeld. Veel plezier met je tattoo en je bent altijd welkom bij Oottat Tattoo!\n\nGroetjes Guido\n\nOottat Tattoo",
+          "translated": "Thank you, Hubert, for these kind words and your trust. It's wonderful to hear that you enjoyed the intake, the contact, and the atmosphere so much. We do this work with great passion, and it's wonderful when you feel the same way. Enjoy your tattoo, and you're always welcome at Oottat Tattoo!\n\nBest, Guido\n\nOottat Tattoo"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GVWVGSlFObFZsU0daWGNVWjRNV1J2VlVSb1NsRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFUeFJQNlVlSGZXcUZ4MWRvVURoSlE%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "5 months ago",
+      "iso_date": "2025-11-03T20:27:47Z",
+      "iso_date_of_last_edit": "2025-11-03T20:27:47Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lES-kT1Z8wKw32CfS5RTAsfJIEfUTcD5V3uNzqZAu59E2TVQJvHNYEE_L2MxUSS5NFf1NFU6uLcJ0rLHdNxt7TAyjE8Rp2x_ySMibdmZbTUnW3uH902GP3ZPA8e1xMu7n7kjoPk2AvKPr73b"
+      ],
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GVWVGSlFObFZsU0daWGNVWjRNV1J2VlVSb1NsRRAB",
+      "user": {
+        "name": "Gwen van der Steen",
+        "link": "https://www.google.com/maps/contrib/117220179523035516348?hl=en-US",
+        "contributor_id": "117220179523035516348",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUhit4_xnT5IHlITVaA3LZoTVbv7eRBQgh9q7AYmJlD9927dd_Btw=s120-c-rp-mo-ba2-br100",
+        "local_guide": true,
+        "reviews": 3,
+        "photos": 16
+      },
+      "snippet": "Ik heb een super ervaring bij je gehad en je doet alles professioneel en volgens de regels. Je hebt een mooie tattoo gemaakt ter ere voor mijn nichtje. Ik heb 4 uur gezeten en het was voor mij heel goed te doen qua pijn. Je straalt rust uit en het fijn om met je te praten.",
+      "extracted_snippet": {
+        "original": "Ik heb een super ervaring bij je gehad en je doet alles professioneel en volgens de regels. Je hebt een mooie tattoo gemaakt ter ere voor mijn nichtje. Ik heb 4 uur gezeten en het was voor mij heel goed te doen qua pijn. Je straalt rust uit en het fijn om met je te praten.",
+        "translated": "I had a fantastic experience with you, and you do everything professionally and according to the rules. You created a beautiful tattoo in honor of my niece. I sat for four hours, and the pain was very manageable. You radiate calm, and it's nice to talk to you."
+      },
+      "details": {
+        "services": "Tattoos",
+        "cleanliness": "Super hygiënisch en het was er super netjes."
+      },
+      "translated_details": {
+        "cleanliness": "Super hygienic and it was super neat."
+      },
+      "likes": 0,
+      "response": {
+        "date": "5 months ago",
+        "iso_date": "2025-11-04T16:30:27Z",
+        "iso_date_of_last_edit": "2025-11-04T16:30:27Z",
+        "snippet": "Bedankt Gwen!\n\nWat goed om te horen. Ik doe mijn uiterste best, en dat blijf ik doen! \n\nMooi tattoo met een mooie betekenis!\n\nGroeten Guido\n\nOottat Tattoo",
+        "extracted_snippet": {
+          "original": "Bedankt Gwen!\n\nWat goed om te horen. Ik doe mijn uiterste best, en dat blijf ik doen! \n\nMooi tattoo met een mooie betekenis!\n\nGroeten Guido\n\nOottat Tattoo",
+          "translated": "Thanks, Gwen!\n\nSo glad to hear it. I'm doing my very best, and I'll continue to do so!\n\nBeautiful tattoo with a beautiful meaning!\n\nBest, Guido\n\nOottat Tattoo"
+        }
+      }
+    },
+    {
+      "position": 3,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKclRIQnpiMmsyYkU1MFEzZEJURzVKUkhaVFZWRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjJrTHBzb2k2bE50Q3dBTG5JRHZTVVE%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "3 months ago",
+      "iso_date": "2026-01-06T19:29:16Z",
+      "iso_date_of_last_edit": "2026-01-06T19:29:16Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lETF-cF2T3MSZGx5kFipK3T6LD30JBpp3r3vnf0C-24RKcsGUbZ08mKWTkHC8x5DUUI7kTmo3CHuUTXQydDFIaq1o5Kv6gCebSJ3wGAEtFNfHQU5NY0_nd4LwgPtRo0zNal--Af59YMAvcRO"
+      ],
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKclRIQnpiMmsyYkU1MFEzZEJURzVKUkhaVFZWRRAB",
+      "user": {
+        "name": "Dusty Vlottes",
+        "link": "https://www.google.com/maps/contrib/110573994465086694780?hl=en-US",
+        "contributor_id": "110573994465086694780",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL47KPigTeuk6zUgRH04a15_P0beRZXUV3mX5_5JkxP0d3Nfg=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 10,
+        "photos": 7
+      },
+      "snippet": "Ben je opzoek naar een goeie tattoo artist?dan zit je hier goed!!\nGuido neemt de tijd voor je en luister naar de klant!\nEcht een aanrader.\nHij heeft bij mij me vriendje gezet buiten het feit om dat het goed gebeurd was het ok erg gezellig",
+      "extracted_snippet": {
+        "original": "Ben je opzoek naar een goeie tattoo artist?dan zit je hier goed!!\nGuido neemt de tijd voor je en luister naar de klant!\nEcht een aanrader.\nHij heeft bij mij me vriendje gezet buiten het feit om dat het goed gebeurd was het ok erg gezellig",
+        "translated": "Looking for a good tattoo artist? Then you've come to the right place!\nGuido takes his time and listens to his clients!\nHighly recommended.\nHe did the tattoo for me and my boyfriend, and besides being excellent, it was also a lot of fun."
+      },
+      "likes": 0,
+      "response": {
+        "date": "3 months ago",
+        "iso_date": "2026-01-06T19:45:15Z",
+        "iso_date_of_last_edit": "2026-01-06T19:45:15Z",
+        "snippet": "Dankjewel Dusty voor deze mooie review!\nSuper tof om te lezen dat je je zo op je gemak voelde en dat je blij bent met het resultaat. Ik neem graag de tijd voor mijn klanten, dus fijn dat dat zo is overgekomen. Je bent altijd welkom voor een volgende tattoo. 👊",
+        "extracted_snippet": {
+          "original": "Dankjewel Dusty voor deze mooie review!\nSuper tof om te lezen dat je je zo op je gemak voelde en dat je blij bent met het resultaat. Ik neem graag de tijd voor mijn klanten, dus fijn dat dat zo is overgekomen. Je bent altijd welkom voor een volgende tattoo. 👊",
+          "translated": "Thank you, Dusty, for this lovely review!\nIt's great to hear you felt so comfortable and are happy with the results. I like to take my time with my clients, so I'm glad it came across that way. You're always welcome for another tattoo. 👊"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kRWRrUXhRVGh6TW13M05sVldZVE5zZWtsTVNIYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOmdEdkQxQThzMmw3NlVWYTNseklMSHc%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "6 months ago",
+      "iso_date": "2025-10-21T07:23:22Z",
+      "iso_date_of_last_edit": "2025-10-21T07:23:22Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kRWRrUXhRVGh6TW13M05sVldZVE5zZWtsTVNIYxAB",
+      "user": {
+        "name": "Marcel Jong",
+        "link": "https://www.google.com/maps/contrib/108131397780576485415?hl=en-US",
+        "contributor_id": "108131397780576485415",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXbW4cThiIpVXGMrYACQVD6ety-phw2Z0bJ55FFx8-mu10AwWKctQ=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 4,
+        "photos": 0
+      },
+      "snippet": "Ik was al een paar jaar op zoek naar een nieuwe Tattoo artiest. Mijn vorige was met de noorderzon vertrokken dus kwam ik toevallig bij Guido terecht.\nAfspraak gemaakt en mijn wensen kenbaar gemaakt.\n10 oktober is mijn cover up gezet\nIk ben er super blij mee en wat een stuk vakwerk.\nIk kan Guido aan iedereen aanbevelen.\nSuper bedankt 🙏",
+      "extracted_snippet": {
+        "original": "Ik was al een paar jaar op zoek naar een nieuwe Tattoo artiest. Mijn vorige was met de noorderzon vertrokken dus kwam ik toevallig bij Guido terecht.\nAfspraak gemaakt en mijn wensen kenbaar gemaakt.\n10 oktober is mijn cover up gezet\nIk ben er super blij mee en wat een stuk vakwerk.\nIk kan Guido aan iedereen aanbevelen.\nSuper bedankt 🙏",
+        "translated": "I'd been looking for a new tattoo artist for a few years. My previous one had disappeared, so I stumbled upon Guido.\nI made an appointment and explained my wishes.\nMy cover-up was done on October 10th.\nI'm thrilled with it, and what a professional job.\nI highly recommend Guido to everyone.\nThank you so much 🙏"
+      },
+      "details": {
+        "services": "Tattoo cover-ups & reworkings, Male tattoos",
+        "cleanliness": "Helemaal oké niets op aan te merken\nKeurige shop"
+      },
+      "translated_details": {
+        "cleanliness": "Completely okay, nothing to complain about\nNeat shop"
+      },
+      "likes": 0,
+      "response": {
+        "date": "5 months ago",
+        "iso_date": "2025-11-03T20:47:27Z",
+        "iso_date_of_last_edit": "2025-11-03T20:47:27Z",
+        "snippet": "Hey Marcel, super bedankt voor je mooie woorden en vertrouwen! 🙏\nHet was echt tof om samen aan je cover-up te werken en ik ben blij dat je er zo tevreden mee bent. Hopelijk tot snel voor het volgende project! 💪\nGroet, Guido – Oottat Tattoo\n",
+        "extracted_snippet": {
+          "original": "Hey Marcel, super bedankt voor je mooie woorden en vertrouwen! 🙏\nHet was echt tof om samen aan je cover-up te werken en ik ben blij dat je er zo tevreden mee bent. Hopelijk tot snel voor het volgende project! 💪\nGroet, Guido – Oottat Tattoo\n",
+          "translated": "Hey Marcel, thanks so much for your kind words and trust! 🙏\nIt was really great working on your cover-up together, and I'm glad you're so happy with it. Hopefully, see you soon for the next project! 💪\nBest, Guido – Oottat Tattoo\n"
+        }
+      }
+    },
+    {
+      "position": 5,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0UFZscHNRa1JWTjBwWmREWmxiMnd4TnpKSloyYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOktPVlpsQkRVN0pZdDZlb2wxNzJJZ2c%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "2 months ago",
+      "iso_date": "2026-02-10T10:36:25Z",
+      "iso_date_of_last_edit": "2026-02-10T10:37:24Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0UFZscHNRa1JWTjBwWmREWmxiMnd4TnpKSloyYxAB",
+      "user": {
+        "name": "Stephanie R",
+        "link": "https://www.google.com/maps/contrib/105168513480512655137?hl=en-US",
+        "contributor_id": "105168513480512655137",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLiFCbZn85i_W2Dasn3rHDh-Jr_x8SeljhaorgYsAS90i6YcQ=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 2,
+        "photos": 0
+      },
+      "snippet": "Guido heeft de namen van mijn kinderen onwijs mooi getatoeëerd! Nogmaals bedankt voor het meedenken en prachtige resultaat in jullie mooie en relaxte shop!\nTot de volgende keer!",
+      "extracted_snippet": {
+        "original": "Guido heeft de namen van mijn kinderen onwijs mooi getatoeëerd! Nogmaals bedankt voor het meedenken en prachtige resultaat in jullie mooie en relaxte shop!\nTot de volgende keer!",
+        "translated": "Guido did a fantastic job tattooing my children's names! Thanks again for your thoughtful advice and the beautiful results in your lovely and relaxed shop!\nSee you next time!"
+      },
+      "likes": 0,
+      "response": {
+        "date": "2 months ago",
+        "iso_date": "2026-02-10T15:54:44Z",
+        "iso_date_of_last_edit": "2026-02-10T15:54:44Z",
+        "snippet": "Dankjewel Stephanie! Super bijzonder om zoiets persoonlijks als de namen van je kinderen te mogen zetten, dat vertrouwen waardeer ik enorm. Fijn dat je het meedenken en de sfeer in de shop zo hebt ervaren. Veel plezier met je tattoo en je bent natuurlijk altijd welkom. Tot de volgende keer!",
+        "extracted_snippet": {
+          "original": "Dankjewel Stephanie! Super bijzonder om zoiets persoonlijks als de namen van je kinderen te mogen zetten, dat vertrouwen waardeer ik enorm. Fijn dat je het meedenken en de sfeer in de shop zo hebt ervaren. Veel plezier met je tattoo en je bent natuurlijk altijd welkom. Tot de volgende keer!",
+          "translated": "Thank you, Stephanie! It's so special to be able to tattoo something as personal as your children's names; I truly appreciate that trust. It's wonderful that you enjoyed the thoughtful approach and the atmosphere in the shop. Enjoy your tattoo, and you're always welcome. Until next time!"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYamItc3J3RRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICXjb-srwE%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-19T08:32:15Z",
+      "iso_date_of_last_edit": "2024-10-19T08:32:15Z",
+      "source": "Google",
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYamItc3J3RRAB",
+      "user": {
+        "name": "Niels van Veen",
+        "link": "https://www.google.com/maps/contrib/114315010813238541894?hl=en-US",
+        "contributor_id": "114315010813238541894",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWD5m0A_UdF0egU6rbqGEjT0QQBPkuQCGmE4nd66FBBTHTAd3A=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 6,
+        "photos": 0
+      },
+      "snippet": "Ik ben erg blij met mijn tattoo. Ik ben goed geholpen met zowel het ontwerp als de tattooage zetten zelf. Guido neemt de tijd voor je en kan goed tekenen en tattooeren. Ga zo door",
+      "extracted_snippet": {
+        "original": "Ik ben erg blij met mijn tattoo. Ik ben goed geholpen met zowel het ontwerp als de tattooage zetten zelf. Guido neemt de tijd voor je en kan goed tekenen en tattooeren. Ga zo door",
+        "translated": "I'm very happy with my tattoo. I received excellent help with both the design and the actual tattooing. Guido takes his time and is a good draftsman and tattoo artist. Keep up the good work!"
+      },
+      "details": {
+        "services": "Tattoos, Tattoo design"
+      },
+      "likes": 1,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-10-19T16:51:40Z",
+        "iso_date_of_last_edit": "2024-10-19T16:51:40Z",
+        "snippet": "Niels, thnx topper! Tot de volgende keer 👌👍",
+        "extracted_snippet": {
+          "original": "Niels, thnx topper! Tot de volgende keer 👌👍",
+          "translated": "Niels, thanks a lot, great! See you next time!"
+        }
+      }
+    },
+    {
+      "position": 7,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNudWV2T3B3RRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICnuevOpwE%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-09-27T17:14:25Z",
+      "iso_date_of_last_edit": "2024-09-27T17:14:25Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lESTq6rOGQj_WWJQbJnKQzzbODqxN2ScNrcm2bZyi5Z6T2Qih4h3t6B7dTpPskU9_gDxfLEENqNjTVPO8xMOkY9dLsXLuFe87taPZEmC3ZMcrutgeiIMSPhvPFrfLqOHduZXClCJ"
+      ],
+      "source": "Google",
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNudWV2T3B3RRAB",
+      "user": {
+        "name": "Marissa Pruim",
+        "link": "https://www.google.com/maps/contrib/115174592283315397966?hl=en-US",
+        "contributor_id": "115174592283315397966",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtrsXcWe4pXsivxEUcCo1kadnATSa_GGOgshwVcmf2yV9_Rpb0=s120-c-rp-mo-ba2-br100",
+        "local_guide": true,
+        "reviews": 16,
+        "photos": 12
+      },
+      "snippet": "Ik ben ontzettend blij met mijn nieuwe tattoo! Het ontwerp is precies zoals ik het wilde en de aandacht voor detail is perfect. Het eindresultaat overtreft al mijn verwachtingen. Super trots op zijn werk!",
+      "extracted_snippet": {
+        "original": "Ik ben ontzettend blij met mijn nieuwe tattoo! Het ontwerp is precies zoals ik het wilde en de aandacht voor detail is perfect. Het eindresultaat overtreft al mijn verwachtingen. Super trots op zijn werk!",
+        "translated": "I'm thrilled with my new tattoo! The design is exactly what I wanted, and the attention to detail is impeccable. The end result exceeds all my expectations. I'm incredibly proud of his work!"
+      },
+      "details": {
+        "services": "Tattoos"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-09-29T19:58:00Z",
+        "iso_date_of_last_edit": "2024-09-29T19:58:00Z",
+        "snippet": "Bedankt voor het vertrouwen!",
+        "extracted_snippet": {
+          "original": "Bedankt voor het vertrouwen!",
+          "translated": "Thank you for your trust!"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNYalllYkN3EAE!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICXjYebCw%7C%7C?hl=en-US",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-19T08:19:51Z",
+      "iso_date_of_last_edit": "2024-10-19T08:19:51Z",
+      "source": "Google",
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNYalllYkN3EAE",
+      "user": {
+        "name": "Michael Leegwater",
+        "link": "https://www.google.com/maps/contrib/100853233432916470080?hl=en-US",
+        "contributor_id": "100853233432916470080",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKKR4UYmZvJq7h1S75kXiwpliDpeasy7B5cwSWXT6Q61m262A=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 5,
+        "photos": 3
+      },
+      "snippet": "Zoek je een aardige vent die goed kan tatoeëren maar ook kan helpen met het ontwerp, dan hoef je niet verder te zoeken. Nu 4 tattoo's verder bij Guido en ik vind het helemaal top. Mike - Zaandam",
+      "extracted_snippet": {
+        "original": "Zoek je een aardige vent die goed kan tatoeëren maar ook kan helpen met het ontwerp, dan hoef je niet verder te zoeken. Nu 4 tattoo's verder bij Guido en ik vind het helemaal top. Mike - Zaandam",
+        "translated": "If you are looking for a nice guy who is good at tattooing but can also help with the design, look no further. Now 4 tattoos later with Guido, I think it's absolutely great. Mike - Zaandam"
+      },
+      "details": {
+        "services": "Tattoos, Tattoo design"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-10-19T08:30:47Z",
+        "iso_date_of_last_edit": "2024-10-19T08:30:47Z",
+        "snippet": "Super Micheal! Altijd leuke sessies! Tot de volgende keer 👍",
+        "extracted_snippet": {
+          "original": "Super Micheal! Altijd leuke sessies! Tot de volgende keer 👍",
+          "translated": "Awesome Michael! Always fun sessions! See you next time 👍"
+        }
+      }
+    },
+    {
+      "position": 1,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYaloyX21BRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICXjZ2_mAE%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-19T08:03:54Z",
+      "iso_date_of_last_edit": "2024-10-19T08:03:54Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQnwTr3N43hIPbFiPHY-2JQdPcwENmH0Lvg5q5MQOf43AtBF6RlqE7J128THsQBXOGvvz-ikAGfimXFCMRtqDw3sPQlhVAN_V-YFGS80u2BaAbB9nNjVVYjNKEOd-bWWX5cPYzu"
+      ],
+      "source": "Google",
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYaloyX21BRRAB",
+      "user": {
+        "name": "Floran Elisa Ouderland",
+        "link": "https://www.google.com/maps/contrib/111811325484634955047?hl=en",
+        "contributor_id": "111811325484634955047",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJI1PbY3r6Pdv-30rzhY3IKImSLqpiy87SNYutqqwQzsdvDUg=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 5,
+        "photos": 1
+      },
+      "snippet": "Wat een goede artist! Luistert naar je wensen en tattoeerd erg fijn. Ik ben heel blij met mijn tattoo!\nIk kan niet wachten op mijn volgende tattoos.",
+      "extracted_snippet": {
+        "original": "Wat een goede artist! Luistert naar je wensen en tattoeerd erg fijn. Ik ben heel blij met mijn tattoo!\nIk kan niet wachten op mijn volgende tattoos.",
+        "translated": "What a great artist! He listens to your wishes and tattoos very well. I'm very happy with my tattoo!\nI can't wait for my next tattoos."
+      },
+      "details": {
+        "services": "Tattoos"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-10-19T08:13:45Z",
+        "iso_date_of_last_edit": "2024-10-19T08:13:45Z",
+        "snippet": "Bedankt Floran! Tot de volgende keer 👍🌴",
+        "extracted_snippet": {
+          "original": "Bedankt Floran! Tot de volgende keer 👍🌴",
+          "translated": "Thanks Floran! See you next time 👍🌴"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNYemFIZUFnEAE!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICXzaHeAg%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-19T09:31:00Z",
+      "iso_date_of_last_edit": "2024-10-19T09:31:00Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lES8E2XWo8BH5gpY2p6KPyCBXQgdIsPPzO5S9C4ThFadTUU2iRdsfL0TflpWAd5rT4cDNjsWHJ0iKK_25I1GFmWpvZOtCKqueQg0nB6wtK6y5NQ2xOUqOQ9RNaDQ6C4uBgeIZqcA0w"
+      ],
+      "source": "Google",
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNYemFIZUFnEAE",
+      "user": {
+        "name": "Vrolijk Vrouwtje",
+        "link": "https://www.google.com/maps/contrib/105740578863206511091?hl=en",
+        "contributor_id": "105740578863206511091",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX9GWg7VPOtXShA7ssVdvLQvNDnlsldERawRLCvry3CzKOATHtT=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 1,
+        "photos": 1
+      },
+      "snippet": "Mijn everaring was helemaal top . Aardige man mooi werk. Al met al top tatoeëerder met super mooi werk",
+      "extracted_snippet": {
+        "original": "Mijn everaring was helemaal top . Aardige man mooi werk. Al met al top tatoeëerder met super mooi werk",
+        "translated": "My experience was absolutely fantastic. A nice guy, beautiful work. All in all, a top tattoo artist with super beautiful work."
+      },
+      "details": {
+        "services": "Tattoos, Tattoo design",
+        "requested_style": "Vlindertjes waarvan ik nog niet helemaal wist hoe ik het wou . Toen ik aan kwam was der al en heel mooi schets getekend en konde we zo beginnen",
+        "cleanliness": "Werkt heel netjes en heel schoon in een schone zaak"
+      },
+      "translated_details": {
+        "requested_style": "Butterflies that I didn't quite know how I wanted yet. When I arrived, a beautiful sketch had already been drawn, and we could get started right away.",
+        "cleanliness": "Works very neatly and very cleanly in a clean shop"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-10-19T16:50:50Z",
+        "iso_date_of_last_edit": "2024-10-19T16:50:50Z",
+        "snippet": "Thnx Joney! Je hebt de sessie super uitgezeten 😃 tot de volgende keer.",
+        "extracted_snippet": {
+          "original": "Thnx Joney! Je hebt de sessie super uitgezeten 😃 tot de volgende keer.",
+          "translated": "Thanks Joney! You had a fantastic time during the session. 😃 See you next time."
+        }
+      }
+    },
+    {
+      "position": 3,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNudWR2czNnRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICnudvs3gE%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-09-27T17:16:13Z",
+      "iso_date_of_last_edit": "2024-09-27T17:16:13Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lERnURAUzGdio8tlnLLtDuErgt0Z8yoBrN5FJjDg9hHKyB8DTlBx7fzBDyYhF3aszU9Z3GKrH1yZCcwVZvLxHu1OanQ_Vi8kxVboAc0Mw_0TABHCdITF51rZs7kZJ3eZolQ6RGo"
+      ],
+      "source": "Google",
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNudWR2czNnRRAB",
+      "user": {
+        "name": "Deborah Steding",
+        "link": "https://www.google.com/maps/contrib/104319519456680881231?hl=en",
+        "contributor_id": "104319519456680881231",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJoakTlbGa4k5IJxQsRqlhJUq9_5vTWz2Gm87p9a51VxcjGeg=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 2,
+        "photos": 1
+      },
+      "snippet": "Super blij mee!!! Ik heb al best wat tattoo’s en vindt de andere echt slagers in vergelijking met jou.\nJe bent gepassioneerd aan het werk en levert top resultaat!!!!\nBedankt en tot snel!!!",
+      "extracted_snippet": {
+        "original": "Super blij mee!!! Ik heb al best wat tattoo’s en vindt de andere echt slagers in vergelijking met jou.\nJe bent gepassioneerd aan het werk en levert top resultaat!!!!\nBedankt en tot snel!!!",
+        "translated": "I'm so happy with it!!! I already have quite a few tattoos and think the others are real butchers compared to you.\nYou're passionate about your work and deliver top-notch results!\nThanks, and see you soon!"
+      },
+      "details": {
+        "services": "Tattoos"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-09-29T19:58:45Z",
+        "iso_date_of_last_edit": "2024-09-29T19:58:45Z",
+        "snippet": "Dankjewel deborah! ",
+        "extracted_snippet": {
+          "original": "Dankjewel deborah! ",
+          "translated": "Thank you deborah!"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNYalp1WFBnEAE!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICXjZuXPg%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-19T08:16:53Z",
+      "iso_date_of_last_edit": "2024-10-19T08:16:53Z",
+      "source": "Google",
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNYalp1WFBnEAE",
+      "user": {
+        "name": "Mike H",
+        "link": "https://www.google.com/maps/contrib/107775235376237990833?hl=en",
+        "contributor_id": "107775235376237990833",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKbrGDctIATjAixwGfEcRD5h_-AwPWiwY7iCtN9SnZ3r-zJHQ=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 7,
+        "photos": 0
+      },
+      "snippet": "Pas een tattoo laten zetten, goed geholpen neemt de tijd voor wat je wil denkt ook mee met je kwa ontwerp.\nEn alles zeer netjes en professioneel zeker een aanrader.",
+      "extracted_snippet": {
+        "original": "Pas een tattoo laten zetten, goed geholpen neemt de tijd voor wat je wil denkt ook mee met je kwa ontwerp.\nEn alles zeer netjes en professioneel zeker een aanrader.",
+        "translated": "Just got a tattoo, and the service was great. He takes his time to understand what you want and also thinks about the design.\nAnd everything was very neat and professional. Definitely recommended."
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-10-19T08:29:19Z",
+        "iso_date_of_last_edit": "2024-10-19T08:29:19Z",
+        "snippet": "Thnx Mike! Was gezellig tot de volgende keer 🙏👍",
+        "extracted_snippet": {
+          "original": "Thnx Mike! Was gezellig tot de volgende keer 🙏👍",
+          "translated": "Thanks Mike! It was fun, see you next time!"
+        }
+      }
+    },
+    {
+      "position": 5,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNuMmZxYjlBRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICn2fqb9AE%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-09-27T14:31:59Z",
+      "iso_date_of_last_edit": "2024-09-27T14:31:59Z",
+      "images": [
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lERmfZqiyuO6-v7DoJLrzhBw68epDZHxj3HdNg_yqdLX6sobOwh3zkcMTF4tJ73u7D02puIrxokR-geQckw2vAgjeMlG075BCZK1hII0WGDR1byGB-wNM0VxT3bk5n0Q7TbeCk8"
+      ],
+      "source": "Google",
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNuMmZxYjlBRRAB",
+      "user": {
+        "name": "Riekie kerkhof",
+        "link": "https://www.google.com/maps/contrib/103326842914011281507?hl=en",
+        "contributor_id": "103326842914011281507",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVG50NfnHLPSbGWarXlrU0Mnl-TKlrT9AZK6dOPjmvpjY2wSeE=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 3,
+        "photos": 1
+      },
+      "snippet": "Ben zeer tevreden ik had al wat laten zetten voor mijn overleden moeder toen dacht ik natuurlijk ter nagedachtenis voor mijn vader en dat heb ik laten doen door Guido van Oottattatoo ik ben er ontzettend blij mee met het resultaat en correct behandeld en voelde bijna geen pijn dat is nog is top heb het wel is anders gehad bij een andere tattooshop dus al met al mijn conclusie is volgende keer weer naar Oottattatoo 👍👍👍",
+      "extracted_snippet": {
+        "original": "Ben zeer tevreden ik had al wat laten zetten voor mijn overleden moeder toen dacht ik natuurlijk ter nagedachtenis voor mijn vader en dat heb ik laten doen door Guido van Oottattatoo ik ben er ontzettend blij mee met het resultaat en correct behandeld en voelde bijna geen pijn dat is nog is top heb het wel is anders gehad bij een andere tattooshop dus al met al mijn conclusie is volgende keer weer naar Oottattatoo 👍👍👍",
+        "translated": "I am very satisfied, I had already had something done for my deceased mother, so I naturally thought of it as a memorial for my father, and I had it done by Guido from Oottattatoo. I am extremely happy with the result and was treated correctly and felt almost no pain, which is still great. I have had it differently at another tattoo shop, so all in all, my conclusion is that next time I will go back to Oottattatoo 👍👍👍"
+      },
+      "details": {
+        "services": "Tattoos, Tattoo design"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-09-29T19:59:33Z",
+        "iso_date_of_last_edit": "2024-09-29T19:59:33Z",
+        "snippet": "Super riekie bedankt!",
+        "extracted_snippet": {
+          "original": "Super riekie bedankt!",
+          "translated": "Thanks a lot, Riekie!"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNuMmRUeUdREAE!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgICn2dTyGQ%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-09-27T14:13:28Z",
+      "iso_date_of_last_edit": "2024-09-27T14:13:28Z",
+      "source": "Google",
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNuMmRUeUdREAE",
+      "user": {
+        "name": "danny den brave",
+        "link": "https://www.google.com/maps/contrib/117818220335648461908?hl=en",
+        "contributor_id": "117818220335648461908",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLR9hS86idWObd4cmushHHXmygHY6LlzWv8NrH2d1Fxn7B59Q=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 1,
+        "photos": 0
+      },
+      "snippet": "heb mooie tatto gezet over me ouwe tatto kreeg ook nog is korting van de heer in kwestie",
+      "extracted_snippet": {
+        "original": "heb mooie tatto gezet over me ouwe tatto kreeg ook nog is korting van de heer in kwestie",
+        "translated": "I got a nice tattoo over my old one and also got a discount from the gentleman in question"
+      },
+      "likes": 0,
+      "response": {
+        "date": "a year ago",
+        "iso_date": "2024-09-27T14:32:45Z",
+        "iso_date_of_last_edit": "2024-09-27T14:32:45Z",
+        "snippet": "Danny het was gezellig! En ik ben erg blij dat je tevreden ben. Tot over 3 maanden voor de volgende afspraak!",
+        "extracted_snippet": {
+          "original": "Danny het was gezellig! En ik ben erg blij dat je tevreden ben. Tot over 3 maanden voor de volgende afspraak!",
+          "translated": "Danny, it was fun! And I'm so glad you're satisfied. See you in three months for the next appointment!"
+        }
+      }
+    },
+    {
+      "position": 7,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYNU1mOWRBEAE!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CIHM0ogKEICAgIDX5Mf9dA%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a year ago",
+      "iso_date": "2024-10-24T13:18:45Z",
+      "iso_date_of_last_edit": "2024-10-24T13:18:45Z",
+      "source": "Google",
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURYNU1mOWRBEAE",
+      "user": {
+        "name": "Tess Pruim",
+        "link": "https://www.google.com/maps/contrib/104092629121518274352?hl=en",
+        "contributor_id": "104092629121518274352",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLc_xjUVDV1CCs0bsGV6ReTPC5hXIYgm0OiAd0l2JuIFif1zQ=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 2,
+        "photos": 0
+      },
+      "snippet": "Super blij met mijn tattoo, fijne shop, top gozer!",
+      "extracted_snippet": {
+        "original": "Super blij met mijn tattoo, fijne shop, top gozer!",
+        "translated": "Super happy with my tattoo, nice shop, great guy!"
+      },
+      "likes": 0,
+      "response": {
+        "date": "5 months ago",
+        "iso_date": "2025-11-04T16:30:51Z",
+        "iso_date_of_last_edit": "2025-11-04T16:30:51Z",
+        "snippet": "Bedankt Tessa! Tot de volgende keer!",
+        "extracted_snippet": {
+          "original": "Bedankt Tessa! Tot de volgende keer!",
+          "translated": "Thanks, Tessa! See you next time!"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Gc1lXcGlUMHBvY2s0dGJtSkxObVpXVlZSMWEwRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFsYWpiT0pock4tbmJLNmZWVVR1a0E%7C%7C?hl=en",
+      "rating": 5,
+      "date": "a week ago",
+      "iso_date": "2026-04-15T11:53:47Z",
+      "iso_date_of_last_edit": "2026-04-15T11:53:47Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Gc1lXcGlUMHBvY2s0dGJtSkxObVpXVlZSMWEwRRAB",
+      "user": {
+        "name": "Willem van der Goot",
+        "link": "https://www.google.com/maps/contrib/101991685154856645474?hl=en",
+        "contributor_id": "101991685154856645474",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUvmyMDKZAIAWq7zAijjWWnJBTDrCBr4-LTQpBPHcsKpExxq8g=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 1,
+        "photos": 0
+      },
+      "snippet": "De tatoo gezet op 1 april, erg op mijn gemak gesteld door Guido, veel gepraat samen over koetjes en kalfjes maar ook serieuze gesprekken gevoerd, zo goed als geen pijn gehad en hij staat er supermooi op, komt er een volgende is het bij Guido, nogmaals dank man",
+      "extracted_snippet": {
+        "original": "De tatoo gezet op 1 april, erg op mijn gemak gesteld door Guido, veel gepraat samen over koetjes en kalfjes maar ook serieuze gesprekken gevoerd, zo goed als geen pijn gehad en hij staat er supermooi op, komt er een volgende is het bij Guido, nogmaals dank man",
+        "translated": "Got the tattoo on April 1st, Guido made me feel very comfortable, we chatted a lot about this and that but also had serious conversations, felt practically no pain and it looks amazing, if I get another one, it will be with Guido, thanks again man"
+      },
+      "details": {
+        "services": "Tattoo cover-ups & reworkings"
+      },
+      "likes": 0
+    },
+    {
+      "position": 9,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSRFJIZFFlbEZwTlVsblkzQmtkMEkzYm5wTGVWRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOkRDRHdQelFpNUlnY3Bkd0I3bnpLeVE%7C%7C?hl=en",
+      "rating": 5,
+      "date": "3 weeks ago",
+      "iso_date": "2026-03-31T20:57:06Z",
+      "iso_date_of_last_edit": "2026-03-31T20:57:06Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSRFJIZFFlbEZwTlVsblkzQmtkMEkzYm5wTGVWRRAB",
+      "user": {
+        "name": "Rafaël Abdullah Bossto",
+        "link": "https://www.google.com/maps/contrib/111674084903603918752?hl=en",
+        "contributor_id": "111674084903603918752",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWa4ckpHoh-dRbuXI86iiMQ914Z9YM7588qAZq9rWr5tZx4-fs=s120-c-rp-mo-br100",
+        "local_guide": true,
+        "reviews": 1,
+        "photos": 0
+      },
+      "likes": 0,
+      "response": {
+        "date": "3 weeks ago",
+        "iso_date": "2026-04-01T15:18:03Z",
+        "iso_date_of_last_edit": "2026-04-01T15:18:03Z",
+        "snippet": "Bedankt voor de mooie review!\n\nGraag tot de volgende keer!",
+        "extracted_snippet": {
+          "original": "Bedankt voor de mooie review!\n\nGraag tot de volgende keer!",
+          "translated": "Thanks for the lovely review!\n\nSee you next time!"
+        }
+      }
+    }
+  ]
+}
