@@ -221,7 +221,7 @@ const renderReviewCard = (review) => {
   const toggleButton = document.createElement("button");
   toggleButton.type = "button";
   toggleButton.className =
-    "mt-2 text-[11px] font-medium text-accent transition-colors duration-200 hover:text-black sm:text-xs";
+    "mt-2 text-[11px] font-medium text-accent transition-colors duration-200 hover:opacity-80 sm:text-xs";
   toggleButton.textContent = CONFIG.readMoreLabel;
   toggleButton.dataset.reviewToggle = "true";
   toggleButton.hidden = !hasOverflow;
