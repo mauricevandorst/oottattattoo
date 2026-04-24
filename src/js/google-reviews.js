@@ -146,7 +146,7 @@ const renderReviewSummary = (reviews) => {
 const renderReviewCard = (review) => {
   const card = document.createElement("article");
   card.className =
-    "w-full shrink-0 rounded-xl border border-white/10 bg-black/40 p-4 sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)]";
+    "w-full shrink-0 rounded-xl border border-stone-200 bg-white p-4 shadow-[0_18px_50px_rgba(15,23,42,0.08)] sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)]";
 
   const header = document.createElement("div");
   header.className = "flex items-start justify-between gap-3";
@@ -155,7 +155,7 @@ const renderReviewCard = (review) => {
   authorWrap.className = "flex items-center gap-3";
 
   const avatar = document.createElement("img");
-  avatar.className = "size-12 rounded-full border border-white/20 object-cover";
+  avatar.className = "size-12 rounded-full border border-stone-200 object-cover";
   avatar.loading = "lazy";
   avatar.alt = "";
   avatar.referrerPolicy = "no-referrer";
@@ -174,11 +174,11 @@ const renderReviewCard = (review) => {
   });
 
   const author = document.createElement("p");
-  author.className = "text-xs font-semibold text-white sm:text-sm";
+  author.className = "text-xs font-semibold text-stone-900 sm:text-sm";
   author.textContent = review.user?.name || "Anonieme gebruiker";
 
   const date = document.createElement("p");
-  date.className = "mt-0.5 text-[11px] text-white/60 sm:text-xs";
+  date.className = "mt-0.5 text-[11px] text-stone-500 sm:text-xs";
   date.textContent = translateDate(review.date);
 
   const authorMeta = document.createElement("div");
@@ -202,7 +202,7 @@ const renderReviewCard = (review) => {
   textWrap.className = "mt-3";
 
   const text = document.createElement("p");
-  text.className = "text-xs leading-relaxed text-white/80 sm:text-sm";
+  text.className = "overflow-hidden text-xs leading-relaxed text-stone-700 transition-[max-height] duration-300 ease-out sm:text-sm";
   text.dataset.reviewText = "false";
   text.dataset.expanded = "false";
   const rawSnippet = (review.snippet || "").trim();
@@ -220,7 +220,7 @@ const renderReviewCard = (review) => {
   const toggleButton = document.createElement("button");
   toggleButton.type = "button";
   toggleButton.className =
-    "mt-2 text-[11px] font-medium text-accent transition sm:text-xs";
+    "mt-2 text-[11px] font-medium text-accent transition-colors duration-200 hover:text-black sm:text-xs";
   toggleButton.textContent = CONFIG.readMoreLabel;
   toggleButton.dataset.reviewToggle = "true";
   toggleButton.hidden = !hasOverflow;
@@ -235,17 +235,33 @@ const renderReviewCard = (review) => {
     const isExpanded = text.dataset.expanded === "true";
 
     if (isExpanded) {
-      text.textContent = displayText;
+      const collapsedHeight = Number(text.dataset.collapsedHeight);
+      text.style.maxHeight = `${text.scrollHeight}px`;
+      void text.offsetHeight;
+      text.style.maxHeight = `${collapsedHeight}px`;
       text.dataset.expanded = "false";
       toggleButton.textContent = CONFIG.readMoreLabel;
       toggleButton.setAttribute("aria-expanded", "false");
+      text.addEventListener("transitionend", () => {
+        text.textContent = displayText;
+        text.style.maxHeight = "";
+      }, { once: true });
       return;
     }
 
+    text.dataset.collapsedHeight = String(text.offsetHeight);
+    const collapsedHeight = text.offsetHeight;
     text.textContent = rawSnippet;
+    const fullHeight = text.scrollHeight;
+    text.style.maxHeight = `${collapsedHeight}px`;
+    void text.offsetHeight;
+    text.style.maxHeight = `${fullHeight}px`;
     text.dataset.expanded = "true";
     toggleButton.textContent = CONFIG.readLessLabel;
     toggleButton.setAttribute("aria-expanded", "true");
+    text.addEventListener("transitionend", () => {
+      text.style.maxHeight = "";
+    }, { once: true });
   });
 
   card.append(header, rating, textWrap, toggleButton);
@@ -255,7 +271,7 @@ const renderReviewCard = (review) => {
 const renderCtaCard = () => {
   const card = document.createElement("article");
   card.className =
-    "w-full shrink-0 rounded-xl border border-accent/40 bg-black/40 p-4 sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)] min-h-[220px] flex flex-col justify-center";
+    "w-full shrink-0 rounded-xl border border-accent/30 bg-white p-4 shadow-[0_18px_50px_rgba(15,23,42,0.08)] sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)] min-h-[220px] flex flex-col justify-center";
 
   const logo = document.createElement("img");
   logo.className = "mb-3 size-8 rounded-full object-cover";
@@ -264,16 +280,16 @@ const renderCtaCard = () => {
   logo.loading = "lazy";
 
   const title = document.createElement("p");
-  title.className = "text-xs font-semibold text-white sm:text-sm";
+  title.className = "text-xs font-semibold text-stone-900 sm:text-sm";
   title.textContent = CONFIG.ctaTitle;
 
   const description = document.createElement("p");
-  description.className = "mt-2 text-xs leading-relaxed text-white/80 sm:text-sm";
+  description.className = "mt-2 text-xs leading-relaxed text-stone-700 sm:text-sm";
   description.textContent = CONFIG.ctaDescription;
 
   const link = document.createElement("a");
   link.className =
-    "mt-4 inline-flex items-center gap-1 text-[11px] font-medium text-blue-300 underline transition hover:text-white sm:text-xs";
+    "mt-4 inline-flex items-center gap-1 text-[11px] font-medium text-accent underline transition-colors duration-200 hover:text-black sm:text-xs";
   link.href = GOOGLE_REVIEWS_URL;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
