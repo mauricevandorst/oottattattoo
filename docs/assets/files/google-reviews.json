@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T08:29:36.361Z",
+  "updatedAt": "2026-04-23T17:29:42.910Z",
   "reviews": [
     {
       "position": 1,
@@ -10,10 +10,10 @@
       "iso_date_of_last_edit": "2026-02-10T12:26:32Z",
       "images": [
         "https://lh3.googleusercontent.com/geougc-cs/AMG9lESq0MaXN9OC3nKirGWIfQts-6s2fucKNiAkwtDWUT-lO6LgOLWD3RDPvba6wMVQJe3Dayd1UHFbdNqXBftap6hAblKThC6lSBF8BtNh7zMDF6XwMZQRV6dfsKcmLmGdD5qrCAAtEIfRFWg",
-        "https://lh3.googleusercontent.com/geougc-cs/AMG9lETMIO6huImQFc6DX5hhJzgTM1CZvkZOAwJ3ZN_5HvXUQochrBkGyaWrzCI5grSXXSUkoXfsvpzcNaq0wbY4tL9e-ReA4z50WO0t-q7axjAxosVoFWGVPdOgMFALm62Ix57jx6uEO7wVX7la",
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lESCl_60tS9LJJJviCFwCKB0W-hxUSjhHICLsOEwgseZG5oV2fW3RH2BFSuOVesmnQNEt8mgXbkZ6_vY2Ksd-TJRGJxllorJeSnjYUEAM-D83SnfBYr4NKMBZ6JjWYV-hr3vwZFU2oX-opMj",
         "https://lh3.googleusercontent.com/geougc-cs/AMG9lET5h-pqmD30zr5jU6hndSEbbxDZcawm1-ErVi-udktAH1Ys8cECt7k60CBx_EsOWRHl9AY0q0uQJywR6dHLP23JqWbEaABkQ1YOi008-ot5037HmEnC10S3hnzoWF8m28wH-H8VEjTf0653",
         "https://lh3.googleusercontent.com/geougc-cs/AMG9lET1WxmnBjCGIqhZ9uAhV4FuAc5-AQmRQXwqxv6cWn2Nt1zkYHmtuzWlGLrrzmsTd6b-2nxJ2bfpizXs5JrIOgOgYxynogw6CzCRr7PEX9iDXWuhaqP_9yCajicCPcdMjKIO5JtFdI9seBGJ",
-        "https://lh3.googleusercontent.com/geougc-cs/AMG9lET74HYaV3ZELJ5cbtn6qR5neYoPaSUTIp0Lu2kERsBPAsZdlS8xaDo6Btir9trDRm1SBCJJkt-Ua-qO0huiyeWTR8Rf251Dj091d3XmQi77QwgmUXazmWYXGMJxwm8hL2To1dz_COIsd_YT"
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lETY8Yn5ZZy-ueoF3QDWsroijmOG-o7aRAIPRb4itRrPGE6FENOGNfJ90EaEczKzmBCbomN-KuiHwoODYSFlv84udiHcJ47CF4w0Dyifs78T2t_2dovgBxCBTkW1ODwICQroiLbMbnmZ_A73"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB",
@@ -21,7 +21,7 @@
         "name": "Hubert Schüssler",
         "link": "https://www.google.com/maps/contrib/115054306277800660825?hl=en-US",
         "contributor_id": "115054306277800660825",
-        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVYtYq6qsb8RJ3ROYkQor7M5gLt-sJ75aqvGZFLYABBoFaGFHOJog=s120-c-rp-mo-ba4-br100",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVYtYq6qsb8RJ3ROYkQor7M5gLt-sJ75aqvGZFLYABBoFaGFHOJog=s120-c-rp-mo-ba12-br100",
         "local_guide": true,
         "reviews": 105,
         "photos": 280
@@ -66,7 +66,7 @@
         "name": "Gwen van der Steen",
         "link": "https://www.google.com/maps/contrib/117220179523035516348?hl=en-US",
         "contributor_id": "117220179523035516348",
-        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUhit4_xnT5IHlITVaA3LZoTVbv7eRBQgh9q7AYmJlD9927dd_Btw=s120-c-rp-mo-ba2-br100",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUhit4_xnT5IHlITVaA3LZoTVbv7eRBQgh9q7AYmJlD9927dd_Btw=s120-c-rp-mo-ba12-br100",
         "local_guide": true,
         "reviews": 3,
         "photos": 16
@@ -264,7 +264,7 @@
         "name": "Marissa Pruim",
         "link": "https://www.google.com/maps/contrib/115174592283315397966?hl=en-US",
         "contributor_id": "115174592283315397966",
-        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtrsXcWe4pXsivxEUcCo1kadnATSa_GGOgshwVcmf2yV9_Rpb0=s120-c-rp-mo-ba2-br100",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtrsXcWe4pXsivxEUcCo1kadnATSa_GGOgshwVcmf2yV9_Rpb0=s120-c-rp-mo-ba12-br100",
         "local_guide": true,
         "reviews": 16,
         "photos": 12
@@ -335,7 +335,7 @@
       "iso_date": "2024-10-19T08:03:54Z",
       "iso_date_of_last_edit": "2024-10-19T08:03:54Z",
       "images": [
-        "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQnwTr3N43hIPbFiPHY-2JQdPcwENmH0Lvg5q5MQOf43AtBF6RlqE7J128THsQBXOGvvz-ikAGfimXFCMRtqDw3sPQlhVAN_V-YFGS80u2BaAbB9nNjVVYjNKEOd-bWWX5cPYzu"
+        "https://lh3.googleusercontent.com/geougc-cs/AMG9lERzHTnDcORfhc6xVUPpyFLfG0Z4DuV74ol44jhTT2Neg5kofnprrD2OQaICFqsdV8q7xyZ5iABDO9OjAVhFws4YMLc1rcXFa2xgnqLPXjS-4dkHWF7ouXOXO_ZIEtnsjvyYh9c9"
       ],
       "source": "Google",
       "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYaloyX21BRRAB",
@@ -647,14 +647,6 @@
         "local_guide": true,
         "reviews": 1,
         "photos": 0
-      },
-      "snippet": "Tattoo laten zetten. Guido stelde me direct op mijn gemak, fijne gesprekken en bijna geen pijn. Resultaat is top!",
-      "extracted_snippet": {
-        "original": "Tattoo laten zetten. Guido stelde me direct op mijn gemak, fijne gesprekken en bijna geen pijn. Resultaat is top!",
-        "translated": "Got the tattoo done. Guido immediately made me feel at ease, nice conversations and almost no pain. The result is great!"
-      },
-      "details": {
-        "services": "Tattoo cover-ups & reworkings"
       },
       "likes": 0,
       "response": {
