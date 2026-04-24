@@ -1029,20 +1029,20 @@
 
     <!-- Reviews -->
     <section id="reviews" class="bg-black py-8 text-primary sm:py-12">
-      <div class="mx-auto w-full max-w-6xl px-6" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14">
+      <div class="mx-auto w-full max-w-[88rem] sm:px-6" data-scroll-fade data-scroll-axis="x" data-scroll-distance="14">
         <div class="sm:p-8">
           <div class="mb-6 flex flex-col gap-2">
             <h2
-              class="text-[1.65rem] sm:text-3xl font-extrabold uppercase tracking-[0.18em] md:text-center md:w-full md:text-4xl"
+              class="text-[1.65rem] sm:text-3xl font-extrabold uppercase tracking-[0.18em] text-center md:w-full md:text-4xl"
               data-scroll-fade data-scroll-axis="x" data-scroll-distance="18">
               Reviews
             </h2>
-            <p id="reviews-summary" class="text-xs text-white/80 sm:text-sm md:text-center">Reviews worden geladen...</p>
+            <p id="reviews-summary" class="text-xs text-white/80 sm:text-sm text-center">Reviews worden geladen...</p>
           </div>
 
-          <div class="mt-6 flex flex-wrap items-center justify-end gap-3 sm:flex-nowrap sm:justify-start">
+          <div class="mt-6 flex items-center justify-start gap-3">
             <button id="reviews-prev" type="button"
-              class="order-2 inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40 sm:order-none"
+              class="inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40"
               aria-label="Vorige reviews">
               <svg viewBox="0 0 20 20" class="block size-5" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd"
@@ -1051,12 +1051,12 @@
               </svg>
             </button>
 
-            <div class="order-1 min-w-0 basis-full overflow-hidden sm:order-none sm:basis-auto sm:flex-1">
+            <div class="min-w-0 flex-1 overflow-hidden">
               <div id="reviews-list" class="flex gap-4 transition-transform duration-500 ease-out"></div>
             </div>
 
             <button id="reviews-next" type="button"
-              class="order-3 inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40 sm:order-none"
+              class="inline-flex shrink-0 items-center justify-center rounded-full bg-black/70 p-2 text-white transition hover:text-white/70 disabled:opacity-40"
               aria-label="Volgende reviews">
               <svg viewBox="0 0 20 20" class="block size-5" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd"
@@ -1066,10 +1066,10 @@
             </button>
           </div>
 
-          <div id="reviews-dots" class="mt-5 hidden items-center justify-center gap-2 sm:flex"
+          <div id="reviews-dots" class="mt-5 flex items-center justify-center gap-[0.35rem] sm:gap-2"
             aria-label="Carousel navigatie"></div>
 
-          <div class="mt-8 flex justify-center">
+          <div class="mt-4 sm:mt-8 flex justify-center">
             <a href="https://www.google.com/search?q=Oottattattoo+Assendelft" target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center gap-2 rounded-[5px] border border-white/20 bg-white/5 px-5 py-2.5 text-xs font-medium text-white/80 transition hover:border-white/40 hover:text-white sm:text-sm">
