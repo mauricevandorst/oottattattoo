@@ -42,6 +42,13 @@ function initialSync() {
 
   copyDir(path.join(SRC, "js"), path.join(DOCS, "js"));
   copyDir(path.join(SRC, "assets"), path.join(DOCS, "assets"));
+  
+  // kopieer alle subfolder HTML files (afspraak, galerij, privacy, etc.)
+  for (const item of readdirSync(SRC, { withFileTypes: true })) {
+    if (item.isDirectory() && item.name !== 'js' && item.name !== 'assets' && item.name !== 'css') {
+      copyDir(path.join(SRC, item.name), path.join(DOCS, item.name));
+    }
+  }
 }
 
 function toDocsPath(srcPath) {
@@ -74,7 +81,9 @@ const tw = spawn(
 
 const watcher = chokidar.watch(
   [
-    SRC,
+    `${SRC}/**/*.html`,
+    `${SRC}/**/*.xml`,
+    `${SRC}/**/*.txt`,
     `${SRC}/js/**`,
     `${SRC}/assets/**`,
   ],
@@ -92,14 +101,6 @@ watcher
   .on("add", (p) => {
     const dest = toDocsPath(p);
     copyFile(p, dest);
-  })
-  .on("change", (p) => {
-    if (isRootHtml(p) ||
-      p.includes(`${path.sep}js${path.sep}`) ||
-      p.includes(`${path.sep}assets${path.sep}`)) {
-      const dest = toDocsPath(p);
-      copyFile(p, dest);
-    }
   })
   .on("change", (p) => {
     const dest = toDocsPath(p);

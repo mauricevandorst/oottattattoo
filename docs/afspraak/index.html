@@ -153,12 +153,23 @@
 
         <!-- Boekingsformulier -->
         <div class="mx-auto w-full max-w-2xl animate-fadeInUp300">
-          <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+          <form action="https://hook.eu1.make.com/kavonao7q4mv8vkspp541xrk4kairrig" method="POST" class="space-y-6">
             <!-- Hidden Fields -->
             <input type="hidden" name="access_key" value="1c1474ed-87a8-43ed-a388-773cb3a09e46">
             <input type="hidden" name="subject" value="Nieuwe tattoo boeking via website">
-            <input type="hidden" name="from_name" value="Oottat Tattoo Boekingsformulier">
-            <input type="hidden" name="redirect" value="https://oottattattoo.nl/bedankt">
+            <input type="hidden" name="redirect" value="../bedankt">
+            
+            <!-- Tracking Parameters -->
+            <input type="hidden" name="utm_source" id="utm_source">
+            <input type="hidden" name="utm_medium" id="utm_medium">
+            <input type="hidden" name="utm_campaign" id="utm_campaign">
+            <input type="hidden" name="utm_id" id="utm_id">
+            <input type="hidden" name="utm_term" id="utm_term">
+            <input type="hidden" name="utm_content" id="utm_content">
+            <input type="hidden" name="device" id="device">
+            <input type="hidden" name="matchtype" id="matchtype">
+            <input type="hidden" name="network" id="network">
+            <input type="hidden" name="gclid" id="gclid">
 
             <!-- Naam -->
             <div class="animate-fadeInUp" data-scroll-fade data-scroll-axis="y" data-scroll-distance="10">
@@ -196,7 +207,7 @@
               <label for="date" class="mb-2 block text-sm uppercase tracking-[0.16em] text-white/80">
                 Gewenste Datum
               </label>
-              <input type="date" id="date" name="preferred_date"
+              <input type="date" id="date" name="gewenste_datum"
                 class="w-full rounded-[4px] border border-white/20 bg-charcoal/40 px-4 py-3 text-sm text-white placeholder-white/40 transition focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent [color-scheme:dark]">
             </div>
 
@@ -205,7 +216,7 @@
               <label for="description" class="mb-2 block text-sm uppercase tracking-[0.16em] text-white/80">
                 Tattoo Omschrijving <span class="text-accent">*</span>
               </label>
-              <textarea id="description" name="message" required rows="5"
+              <textarea id="description" name="bericht" required rows="5"
                 class="w-full rounded-[4px] border border-white/20 bg-charcoal/40 px-4 py-3 text-sm text-white placeholder-white/40 transition focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent resize-y"
                 placeholder="Beschrijf jouw tattoo idee zo gedetailleerd mogelijk..."></textarea>
             </div>
@@ -216,7 +227,7 @@
                 <label for="location" class="mb-2 block text-sm uppercase tracking-[0.16em] text-white/80">
                   Plek op Lichaam
                 </label>
-                <select id="location" name="body_location"
+                <select id="location" name="lichaamsdeel"
                   class="w-full rounded-[4px] border border-white/20 bg-charcoal/40 px-4 py-3 text-sm text-white transition focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent [color-scheme:dark]">
                   <option value="">Selecteer locatie</option>
                   <option value="arm">Arm</option>
@@ -235,7 +246,7 @@
                 <label for="size" class="mb-2 block text-sm uppercase tracking-[0.16em] text-white/80">
                   Geschatte Grootte
                 </label>
-                <select id="size" name="tattoo_size"
+                <select id="size" name="grootte"
                   class="w-full rounded-[4px] border border-white/20 bg-charcoal/40 px-4 py-3 text-sm text-white transition focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent [color-scheme:dark]">
                   <option value="">Selecteer grootte</option>
                   <option value="klein">Klein (< 5cm)</option>
@@ -475,6 +486,8 @@
   <script src="../js/gallery-lightbox.js"></script>
   <script src="../js/smooth-scroll.js"></script>
   <script src="../js/scroll-reveal.js"></script>
+  <script src="../js/utm-tracker.js"></script>
+  <script src="../js/form-submit-handler.js"></script>
 </body>
 
 </html>

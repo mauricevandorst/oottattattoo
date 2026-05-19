@@ -23,6 +23,13 @@ function copyStatic() {
 
   cpSync(`${SRC}/js`, `${DOCS}/js`, { recursive: true, force: true });
   cpSync(`${SRC}/assets`, `${DOCS}/assets`, { recursive: true, force: true });
+  
+  // kopieer alle subfolder HTML files (afspraak, galerij, privacy, etc.)
+  for (const item of readdirSync(SRC, { withFileTypes: true })) {
+    if (item.isDirectory() && item.name !== 'js' && item.name !== 'assets' && item.name !== 'css') {
+      cpSync(`${SRC}/${item.name}`, `${DOCS}/${item.name}`, { recursive: true, force: true });
+    }
+  }
 }
 
 function buildCss() {
