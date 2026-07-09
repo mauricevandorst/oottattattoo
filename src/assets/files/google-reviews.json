@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-07-02T05:41:55.404Z",
+  "updatedAt": "2026-07-09T05:46:38.580Z",
   "reviews": [
     {
       "position": 1,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjVOLXZhS2FYTE5DTkJCb2FPYm5CTWc%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjVOLXZhS2FYTE5DTkJCb2FPYm5CTWc%7C%7C?hl=en-US",
       "rating": 5,
       "date": "4 months ago",
       "iso_date": "2026-02-10T12:26:32Z",
       "iso_date_of_last_edit": "2026-02-10T12:26:32Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0weoletapOA6uOXkKOJsaDbg_IEXMuhJdRueWDluE9u_iCJu3D4ilBzO2LIY1gfWkV_ZdlOLOn5EAWgdATiuLfBWTqWoBlQgU0jpPFHb-MyBqMXRY_bXINUv33F2BILei0W5xJpoPkf8U=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0S1gXKlqQBCv2HwmPewltH2y3SUkZCj8GSSydchA3oJ0cQeokz0pp2EiUIIrkAwikaagDCE7GVhlqb9Y-S66r1Nfnss_xRZp-SZQVx-SOFS4dlICNcRb8JBmtQWJBdBCjAtkcKt0bhoPuJ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn06IbItVGA8CMcEjdXqJcVGC7jJ-5Aqe5vTzMx6silZFotTTnJcMhCfHO1p6B-0LGTMkEbD6dYPfBZyXQ-zWDGdzJQm3olz8hi7aYGQ457XrT_iwyfgJvERPa4CO8bNqcKHSbD-dca-1O5k=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn16Qv1bcK3uCAlkyIm5YsIQGqTkWd5aUFFl8hPIEuTD3t3Ito90u_4tv05uwTSDBOCl2KlS9VwOAYX3AQN1uZUyYBbA2z-Luyc1ddOeqM3VCrLyBKcBgaeXHQKOatVUmzUps6QSP6_I6AlO=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3FkHkalMKSI5tRCjEmtF7L1kdA0rAIEG7ZoviOWS7UjeQLyBUnT-tHVrVqwA92l2B9IRrsD9UhhmTN1JDxnBbAlQ9GSpeCqhLX3oQyEQB2b44bX7MHIOk9JMuUvT0AsU5EyV1pJjkcjb9p=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPPZ73YwYMBMUt5kVhq_IE4Pm83zo55-FeBz69uIp0LlDO6m2QXtZJCZXV-K6peIFnL7XvA63HwZII-K-cyCMm_W9IWenz9vLHoYObJP-LeMPxGH3N8VSEJiBANcyJKmrOLtYn5hs3eul0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQSylBexF2Wc4Ssj4SHZi2yd1QGj_P8cdpzYcIUiQjXXkdvmJEBbfwunf28v8p1bqXjGKocKDX-DYBRLFRUyTRCMPahbVsMCg-tv4F-_b-9GKKLVho-RpdrMtzH21VVKr0CuiF5EK3jFVQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOWeR-sJy4QwyeZ5n4MwwMneAQ-sscpg8Ss_OVm_OcaDMNNCSaCPuZh8s4S3C-PcKovX9MZx0TvZpVasWy8_0b_EHzR42j6AKzwYA_iH0Jeqd4G18YffjVwh2-S9nyBc7ojTL-ErzAKMjPv=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNj5ugn1XJ30wTSnB4-ammXogcusf51gtY-e_18YO_vVzrkV_hS04OczHy7Q9J268OsNB9XPjsR_F-PTAOLoaMcr9vDXApaZGmkeWVdXdfM7itcOEg11xdMrZpe8R_4sV4BuLD7Wn1jXUZ5=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFUv-E84PxNkSZXC03tpR5E-1Q1-ScdqBCgC8-K7BKaB1176ftIRtTlvlqxtMeZtx6N7dsgVAfk21ZP58JXa3Af634kEcu1iLERqDlAmW9WyfTefxeVBg2ctR8-yJTdBseZpz1hCeTGL-y=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWT0xYWmhTMkZZVEU1RFRrSkNiMkZQWW01Q1RXYxAB",
@@ -52,7 +52,7 @@
     },
     {
       "position": 2,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Gc1lXcGlUMHBvY2s0dGJtSkxObVpXVlZSMWEwRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFsYWpiT0pock4tbmJLNmZWVVR1a0E%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Gc1lXcGlUMHBvY2s0dGJtSkxObVpXVlZSMWEwRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFsYWpiT0pock4tbmJLNmZWVVR1a0E%7C%7C?hl=en-US",
       "rating": 5,
       "date": "2 months ago",
       "iso_date": "2026-04-15T11:53:47Z",
@@ -90,13 +90,13 @@
     },
     {
       "position": 3,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GVWVGSlFObFZsU0daWGNVWjRNV1J2VlVSb1NsRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFUeFJQNlVlSGZXcUZ4MWRvVURoSlE%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GVWVGSlFObFZsU0daWGNVWjRNV1J2VlVSb1NsRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnFUeFJQNlVlSGZXcUZ4MWRvVURoSlE%7C%7C?hl=en-US",
       "rating": 5,
-      "date": "7 months ago",
+      "date": "8 months ago",
       "iso_date": "2025-11-03T20:27:47Z",
       "iso_date_of_last_edit": "2025-11-03T20:27:47Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1J3D3VRPEbCouqTEYG-V4koEppaJGUBmNIW823klrakmaA46sNEwVkHsTnW_zQAx6bx70FQOMhDWfCmk03AdFN-MClKps1vkduhU6SIovu89B4VFEShPaKmv3Gf_IdLfGecmdL4phox0kE=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPsAlmAY9S2U0xOvOcrXLyAW02Y1cQuSVoz7GAoNOm572rx_Yp-2kfOMPUOXO3RXYaaWIDm_Z8NFmAX_c5yUtquRSVKPynQs67rv93u_hH94lU3cY-56MSGeHS03v10NFi_ZnF5UA2x6P74=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GVWVGSlFObFZsU0daWGNVWjRNV1J2VlVSb1NsRRAB",
@@ -123,7 +123,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "7 months ago",
+        "date": "8 months ago",
         "iso_date": "2025-11-04T16:30:27Z",
         "iso_date_of_last_edit": "2025-11-04T16:30:27Z",
         "snippet": "Bedankt Gwen!\n\nWat goed om te horen. Ik doe mijn uiterste best, en dat blijf ik doen! \n\nMooi tattoo met een mooie betekenis!\n\nGroeten Guido\n\nOottat Tattoo",
@@ -135,7 +135,7 @@
     },
     {
       "position": 4,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1S2RVNDRSMEUzVDJ0RFQzaDFaRjlITVdWVWNuYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOk5KdU44R0E3T2tDT3h1ZF9HMWVUcnc%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1S2RVNDRSMEUzVDJ0RFQzaDFaRjlITVdWVWNuYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOk5KdU44R0E3T2tDT3h1ZF9HMWVUcnc%7C%7C?hl=en-US",
       "rating": 5,
       "date": "a month ago",
       "iso_date": "2026-05-18T17:39:35Z",
@@ -170,13 +170,13 @@
     },
     {
       "position": 5,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKclRIQnpiMmsyYkU1MFEzZEJURzVKUkhaVFZWRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjJrTHBzb2k2bE50Q3dBTG5JRHZTVVE%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKclRIQnpiMmsyYkU1MFEzZEJURzVKUkhaVFZWRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjJrTHBzb2k2bE50Q3dBTG5JRHZTVVE%7C%7C?hl=en-US",
       "rating": 5,
-      "date": "5 months ago",
+      "date": "6 months ago",
       "iso_date": "2026-01-06T19:29:16Z",
       "iso_date_of_last_edit": "2026-01-06T19:29:16Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2y5ryTwt0boeRm2wIcAEr9u3x3XfJWeWKJB7Di4Gk8d74xXU6njYo55qLexI9jy44_wyxYMPVvou8x0M8qDmrVkVEE0mjrxDRQaTfwrilIX0UhU1nfcyci00h9M7AK6P4OtWfp93tdCerF=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMryJAQwhdbz24m8XkLpVclbJTvwKcTC3STQR-cruxvhzY05tdvisky6I2lmZcxchfg1l2YiKsM2hcxqMGQwvlP-XTV2R2RFXjRF5N3ruIc0BjLj3c5PsZ8REMIi17KL9ZPFMvOl0k2ZjOY=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKclRIQnpiMmsyYkU1MFEzZEJURzVKUkhaVFZWRRAB",
@@ -196,7 +196,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "5 months ago",
+        "date": "6 months ago",
         "iso_date": "2026-01-06T19:45:15Z",
         "iso_date_of_last_edit": "2026-01-06T19:45:15Z",
         "snippet": "Dankjewel Dusty voor deze mooie review!\nSuper tof om te lezen dat je je zo op je gemak voelde en dat je blij bent met het resultaat. Ik neem graag de tijd voor mijn klanten, dus fijn dat dat zo is overgekomen. Je bent altijd welkom voor een volgende tattoo. 👊",
@@ -208,7 +208,7 @@
     },
     {
       "position": 6,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0UFZscHNRa1JWTjBwWmREWmxiMnd4TnpKSloyYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOktPVlpsQkRVN0pZdDZlb2wxNzJJZ2c%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0UFZscHNRa1JWTjBwWmREWmxiMnd4TnpKSloyYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOktPVlpsQkRVN0pZdDZlb2wxNzJJZ2c%7C%7C?hl=en-US",
       "rating": 5,
       "date": "4 months ago",
       "iso_date": "2026-02-10T10:36:25Z",
@@ -243,13 +243,13 @@
     },
     {
       "position": 7,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xOWFlYaE9URkYzUTFkMVJsazVSREkxVTB3eE0yYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOlNXYXhOTFF3Q1d1Rlk5RDI1U0wxM2c%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xOWFlYaE9URkYzUTFkMVJsazVSREkxVTB3eE0yYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOlNXYXhOTFF3Q1d1Rlk5RDI1U0wxM2c%7C%7C?hl=en-US",
       "rating": 5,
       "date": "a month ago",
       "iso_date": "2026-05-18T14:18:07Z",
       "iso_date_of_last_edit": "2026-05-18T14:18:07Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0f2SNnmt15CHSwp0IEcxQqokbs9GkqM0po_zZGcokitYJQJAoUCdAqooiDVE3glFo1iMi9q5wRamZYaWXQzCnuLsg4wCjVW9ZzbrPxmLMmylGneflTToIiAKWTm-PKHQ1g7mYNIastsq0=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNMRQkJPQivIC25gwIOuI5ZG31aO5PoFqFln51UgTMNXUqhMQLakqmmrfftfzNl_WqSDun19y2UF-yQcaBma2AhxHarYjCtSjyfF9_3tn2JTv9bEiLiyJRABuazHtZsNFDW4azCtiURmRw=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOWFlYaE9URkYzUTFkMVJsazVSREkxVTB3eE0yYxAB",
@@ -281,7 +281,7 @@
     },
     {
       "position": 8,
-      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kRWRrUXhRVGh6TW13M05sVldZVE5zZWtsTVNIYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOmdEdkQxQThzMmw3NlVWYTNseklMSHc%7C%7C?hl=en",
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kRWRrUXhRVGh6TW13M05sVldZVE5zZWtsTVNIYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOmdEdkQxQThzMmw3NlVWYTNseklMSHc%7C%7C?hl=en-US",
       "rating": 5,
       "date": "8 months ago",
       "iso_date": "2025-10-21T07:23:22Z",
@@ -311,7 +311,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "7 months ago",
+        "date": "8 months ago",
         "iso_date": "2025-11-03T20:47:27Z",
         "iso_date_of_last_edit": "2025-11-03T20:47:27Z",
         "snippet": "Hey Marcel, super bedankt voor je mooie woorden en vertrouwen! 🙏\nHet was echt tof om samen aan je cover-up te werken en ik ben blij dat je er zo tevreden mee bent. Hopelijk tot snel voor het volgende project! 💪\nGroet, Guido – Oottat Tattoo\n",
@@ -325,7 +325,7 @@
       "position": 1,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tORlVVOVhYMjUzYkd4UVZVcFpXVjh3WVZCWmFuYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOkNFUU9XX253bGxQVUpZWV8wYVBZanc%7C%7C?hl=en",
       "rating": 5,
-      "date": "3 weeks ago",
+      "date": "a month ago",
       "iso_date": "2026-06-08T16:33:14Z",
       "iso_date_of_last_edit": "2026-06-08T16:33:14Z",
       "source": "Google",
@@ -355,7 +355,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "3 weeks ago",
+        "date": "a month ago",
         "iso_date": "2026-06-08T17:01:29Z",
         "iso_date_of_last_edit": "2026-06-08T17:01:29Z",
         "snippet": "Super bedankt Den! 🙏 Mooi om te lezen. Bedankt voor het vertrouwen en de gezellige sessie. Volgende keer gaan we weer verder, tot dan! 👊",
@@ -447,7 +447,7 @@
       "iso_date": "2024-09-27T17:14:25Z",
       "iso_date_of_last_edit": "2024-09-27T17:14:25Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1u5dMIiI7xFmn8YlfLdJVxcyV5jpl4dVpZDI66JWFp0_QEx2BgDIkZMYz8ov3XDyC1b8fpVOJERf38Qz43bBFTKaYAvHHfyVGpGniq9n1fXleZ0Qm4jFvIXZ-iutfDLZ-4R5EB=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2qNQYmkCsEfsz-wqX1z6sr51ZKc25MCk8yX9YmlhS8IBuIxJlvWQUeNsRk-BR3-EhlC9O1vq7e6HhuOyauJXa2NLKhJCXOxegf7CmPLQ7uH0TRTVOc0zdXioho8drZK87s9LlA=k-no"
       ],
       "source": "Google",
       "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNudWV2T3B3RRAB",
@@ -487,7 +487,7 @@
       "iso_date": "2024-10-19T09:31:00Z",
       "iso_date_of_last_edit": "2024-10-19T09:31:00Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1-X0dD_J-qMNnHRfyLGlTdDsmNt1Ri5rQfb063UmIxopXs2wbfIWqWWSthpEvbiL_uS5oNs2yUHVgczfzq8P0XHR9gvmyhgft8-HyA-VNqf44SQLvbGWMAcdpk5Qe2Q9-zR84Gog=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1jlQCXwcQ5T4aPVe6kr1WaKcClVmxLUbdlkvz2hLhFiojtmChaHO_ujnDXBKfUWDyf_Ob1HeyqK3aKQb6YE0T1R0Evn-x8JVMRd9TtDbjU0qg1GZFDvqQf87eFCkExTmTgxYJitA=k-no"
       ],
       "source": "Google",
       "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNYemFIZUFnEAE",
@@ -533,7 +533,7 @@
       "iso_date": "2024-09-27T14:31:59Z",
       "iso_date_of_last_edit": "2024-09-27T14:31:59Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1djQbbrVFjy__G72QpQTikZHLdj_1hHtPpvKOqW5qVT68GfbfIr3yimu98JRwO30A2PApfONAGnn2OeCrCHn-x64Pmm7gUJ51_hYqM8KcmNtfbDhRAX7kHdUhcx_4IcWJgk5A=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3E7lvuVROABjVPuR7SLamzT8FMyqdueySyWcJ6lSKqNsh-iGIN0tnj3A3qpfzdaxTm2X8tty7NxjybtcTm9hpBVwH077CAeuDfloJQTrRyMQNS8ETNnGbwgVarewRvMmUHy2k=k-no"
       ],
       "source": "Google",
       "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNuMmZxYjlBRRAB",
@@ -573,7 +573,7 @@
       "iso_date": "2024-10-19T08:03:54Z",
       "iso_date_of_last_edit": "2024-10-19T08:03:54Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Cnj6xpfKfpMiRW6kdLN9n5Lbh3L_dRq95CfMXV5caEyXYz-CEl5whZ0SaliBw9vPnv9R72vgAiFRGCpLgwKOefDXRrp-HFQ6W1UQbcde_eSpU3NkOBvHYLYnRIfTlT4Mwo_H2=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1quT93EFCk9rhsdHyzc0_N2uJ07YuoRiynu83WpcPZZiDBbQoY-DG4X5AX1zr71Kc_iMYXl1facKaXi8cd8w4b4ZUqIkL8dzVRRQWO-hqp9SDxXLWlFT7tCv_-DjEcMfEwbxkQ=k-no"
       ],
       "source": "Google",
       "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYaloyX21BRRAB",
@@ -647,7 +647,7 @@
       "iso_date": "2024-09-27T17:16:13Z",
       "iso_date_of_last_edit": "2024-09-27T17:16:13Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0QBUzn_jpBjvwCzRFWB1K76xIW6cODzYbwCzIXdLGLSXWf8wjpHLicUNOxD6jGSfVnahzQLYr5Qmiu_LZB1S2yRrDStmP-8jPGHJkMVJD7vSRGKDQ94pkpKM2v56mSusOtIGU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0YhFJwPOSxsNpUxBR0g9iuV9NhFTdI6-snmYgmW0mz3QQvu9pTkWcur5ybrOUHayjfnSw4BiyjUdbWBCPk5bR8rIiYgwb_DA4821gBpAY0kaf5DAnnpWod_Cgeo26CrgY9Gj8=k-no"
       ],
       "source": "Google",
       "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNudWR2czNnRRAB",
@@ -737,7 +737,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "7 months ago",
+        "date": "8 months ago",
         "iso_date": "2025-11-04T16:30:51Z",
         "iso_date_of_last_edit": "2025-11-04T16:30:51Z",
         "snippet": "Bedankt Tessa! Tot de volgende keer!",
@@ -791,13 +791,102 @@
     },
     {
       "position": 3,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s4d2RYRnNWakJyVG0xV2QyZzFSRmw0UjNKMVRIYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOk8wdXFsVjBrTm1Wd2g1RFl4R3J1THc%7C%7C?hl=en",
+      "rating": 5,
+      "date": "2 days ago",
+      "iso_date": "2026-07-06T15:42:46Z",
+      "iso_date_of_last_edit": "2026-07-06T15:42:46Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4d2RYRnNWakJyVG0xV2QyZzFSRmw0UjNKMVRIYxAB",
+      "user": {
+        "name": "K M",
+        "link": "https://www.google.com/maps/contrib/111248431313583920537?hl=en",
+        "contributor_id": "111248431313583920537",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWVx8b53ps7Ffm2wcb3ahbaOPTryeQ0PL_-MX_WavSmdT3rTfcAdg=s120-c-rp-mo-br100",
+        "reviews": 2,
+        "photos": 1
+      },
+      "snippet": "Guido komt gelijk professioneel en betrouwbaar over denkt met je mee en neemt de tijd voor je .en heeft voor mij een paar mooie ontwerpen voormijn tattoos gemaakt deze zijn naar volle tevredenheid geplaatst deze tattoo shop is zeker een aanrader ik ben er blij mee.\nGr.K.Muis",
+      "extracted_snippet": {
+        "original": "Guido komt gelijk professioneel en betrouwbaar over denkt met je mee en neemt de tijd voor je .en heeft voor mij een paar mooie ontwerpen voormijn tattoos gemaakt deze zijn naar volle tevredenheid geplaatst deze tattoo shop is zeker een aanrader ik ben er blij mee.\nGr.K.Muis",
+        "translated": "Guido comes across as professional and reliable right away; he thinks along with you and takes the time for you. He also created a few beautiful designs for my tattoos, which were applied to my full satisfaction. This tattoo shop is definitely highly recommended; I am happy with it.\n\nRegards, K.Muis"
+      },
+      "details": {
+        "price": "€300–400",
+        "services": "Tattoo design, Male tattoos, Tattoos, Tattoo touch-ups",
+        "cleanliness": "Netheid en hygiene in de shop is erg goed top."
+      },
+      "translated_details": {
+        "cleanliness": "Cleanliness and hygiene in the shop are very good, top notch."
+      },
+      "likes": 0,
+      "response": {
+        "date": "2 days ago",
+        "iso_date": "2026-07-06T17:28:21Z",
+        "iso_date_of_last_edit": "2026-07-06T17:28:21Z",
+        "snippet": "Bedankt voor je mooie review, Klaas! 🙏 Fijn om te horen dat je zo tevreden bent met zowel de ontwerpen als het eindresultaat. Ik vind het belangrijk om de tijd te nemen en samen tot een tattoo te komen die echt bij je past. Bedankt voor het vertrouwen en veel plezier met je tattoos. Je bent altijd van harte welkom bij Oottat Tattoo! 👊",
+        "extracted_snippet": {
+          "original": "Bedankt voor je mooie review, Klaas! 🙏 Fijn om te horen dat je zo tevreden bent met zowel de ontwerpen als het eindresultaat. Ik vind het belangrijk om de tijd te nemen en samen tot een tattoo te komen die echt bij je past. Bedankt voor het vertrouwen en veel plezier met je tattoos. Je bent altijd van harte welkom bij Oottat Tattoo! 👊",
+          "translated": "Thanks for your lovely review, Klaas! 🙏 It's great to hear that you are so satisfied with both the designs and the final result. I think it's important to take the time and work together to create a tattoo that truly suits you. Thank you for your trust and enjoy your tattoos. You are always very welcome at Oottat Tattoo! 👊"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KbVdFdzJTR0o2Ykc5Tk1XeEhRMHRqYzJab2RuYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnJmWEw2SGJ6bG9NMWxHQ0tjc2Zodnc%7C%7C?hl=en",
+      "rating": 5,
+      "date": "4 days ago",
+      "iso_date": "2026-07-04T14:43:25Z",
+      "iso_date_of_last_edit": "2026-07-04T14:43:25Z",
+      "source": "Google",
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KbVdFdzJTR0o2Ykc5Tk1XeEhRMHRqYzJab2RuYxAB",
+      "user": {
+        "name": "Natatsia Groenefelt",
+        "link": "https://www.google.com/maps/contrib/111911860386832039011?hl=en",
+        "contributor_id": "111911860386832039011",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU2W67AS9hBGddtxikeiwbR5lNlBtbFTrbaO382-lG1UBjGT5pw=s120-c-rp-mo-br100",
+        "reviews": 9,
+        "photos": 0
+      },
+      "snippet": "Guido is een hele aardige en bekwame tattoo artiest die lekker een praatje maakt en ondertussen een hele mooie tatoeage plaatst. Hij heeft in hele mooie sierletters de naam van mijn lieve hond op mijn arm getatoeëerd! Binnenkort terug voor haar snuitje en om een oude tatoeage nieuw leven in te blazen.",
+      "extracted_snippet": {
+        "original": "Guido is een hele aardige en bekwame tattoo artiest die lekker een praatje maakt en ondertussen een hele mooie tatoeage plaatst. Hij heeft in hele mooie sierletters de naam van mijn lieve hond op mijn arm getatoeëerd! Binnenkort terug voor haar snuitje en om een oude tatoeage nieuw leven in te blazen.",
+        "translated": "Guido is a very nice and skilled tattoo artist who is great for a chat while applying a beautiful tattoo. He tattooed the name of my sweet dog on my arm in lovely cursive lettering! Going back soon for her snout and to breathe new life into an old tattoo."
+      },
+      "details": {
+        "price": "€1–100",
+        "services": "Fine line tattoos, Tattoo design, Tattoos",
+        "requested_style": "Sierletters",
+        "specialties": "Alles is mogelijk! Binnenkort de mogelijkheden bespreken  om een oude tatoeage nieuw leven in te blazen",
+        "cleanliness": "Top!",
+        "stylist": "Guido is een vakman, alles is bespreekbaar, een aanrader!"
+      },
+      "translated_details": {
+        "requested_style": "Decorative letters",
+        "specialties": "Anything is possible! Discussing the possibilities soon to breathe new life into an old tattoo.",
+        "stylist": "Guido is a true professional, everything is open for discussion, highly recommended!"
+      },
+      "likes": 0,
+      "response": {
+        "date": "3 days ago",
+        "iso_date": "2026-07-05T08:46:30Z",
+        "iso_date_of_last_edit": "2026-07-05T08:46:30Z",
+        "snippet": "Bedankt voor je mooie woorden en het vertrouwen! Het doet me goed om te horen dat je tevreden bent met zowel de tattoo als de ervaring. Ik zie je graag snel terug om je volgende ideeën uit te werken.",
+        "extracted_snippet": {
+          "original": "Bedankt voor je mooie woorden en het vertrouwen! Het doet me goed om te horen dat je tevreden bent met zowel de tattoo als de ervaring. Ik zie je graag snel terug om je volgende ideeën uit te werken.",
+          "translated": "Thank you for your kind words and the trust! It makes me happy to hear that you are satisfied with both the tattoo and the experience. I look forward to seeing you again soon to work out your next ideas."
+        }
+      }
+    },
+    {
+      "position": 5,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205SWVqQk1jV3BGZVhkalJtNUtSVEpNTkRGRlozYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOm9IejBMcWpFeXdjRm5KRTJMNDFFZ3c%7C%7C?hl=en",
       "rating": 5,
-      "date": "5 days ago",
+      "date": "a week ago",
       "iso_date": "2026-06-26T16:12:08Z",
       "iso_date_of_last_edit": "2026-06-26T16:12:08Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1mEZwX6ObGl5qbZVyrtY2xvkYGgLHtW3OZcxsexVCnmhcTsM_qXnA8LLu3Q4XsvwrFz0ld9K0zLbNFtAS8LWlOWWua3_qUPT6Cl32jLKT6ZB3at69NiCBVPmLPdXXqXhBHBlbPZdoSKys=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3-kLyzwz3uuiw9CBTxeh4plCmfHFfQo6Zw-mj77FuXbamCVXWwVfQZqW4Sf3PiZGDv-WGM7DWRJPNDJ4HzfJLTdUzDNN8FSsY4wSVggVfx6JTdk4NozJFkXB2eTfCd5f5mPAQ_L9a4BLY=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205SWVqQk1jV3BGZVhkalJtNUtSVEpNTkRGRlozYxAB",
@@ -806,7 +895,7 @@
         "link": "https://www.google.com/maps/contrib/102612669192896866885?hl=en",
         "contributor_id": "102612669192896866885",
         "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJLyrdfxddpR4vjazw6p7D9hxrAVzT7ae2JN1im1pFdXpK9EA=s120-c-rp-mo-br100",
-        "reviews": 8,
+        "reviews": 9,
         "photos": 4
       },
       "snippet": "Ik ben zo blij! Heb net mijn tattoo laten zetten bij oottat tattoo. Guido werkt heel zorgvuldig netjes en hygiënisch. Hij neemt zijn tijd en zorgt ervoor dat alles tot in de puntjes perfect is. Behalve zijn werk is hij zelf als persoon ook heel aardig, we hebben tijdens het zetten van mijn tattoo ook leuk gesproken. Wil je een tattoo laten zetten raad ik Guido 1000% aan.",
@@ -819,7 +908,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "5 days ago",
+        "date": "a week ago",
         "iso_date": "2026-06-26T20:31:31Z",
         "iso_date_of_last_edit": "2026-06-26T20:31:31Z",
         "snippet": "Bedankt voor je mooie review, Kelly!\n\n Wat fijn om te horen dat je zo tevreden bent met je nieuwe tattoo.\n\n Bij Oottat Tattoo in Assendelft staan kwaliteit, hygiëne en persoonlijke aandacht altijd voorop. Ik neem graag de tijd om iedere tattoo tot in de kleinste details perfect af te werken. \nBedankt voor je vertrouwen en heel veel plezier met je tattoo. \n\nJe bent altijd weer welkom!",
@@ -830,14 +919,14 @@
       }
     },
     {
-      "position": 4,
+      "position": 6,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWRlIxY3RUVFpVYm5CeU5FazBkbGxmVDBjMVlYYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOkVFR1ctTTZUbnByNEk0dllfT0c1YXc%7C%7C?hl=en",
       "rating": 5,
-      "date": "a week ago",
+      "date": "2 weeks ago",
       "iso_date": "2026-06-20T13:16:46Z",
       "iso_date_of_last_edit": "2026-06-20T13:16:46Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3RPprau1_LW5Zky50j8PjhutnbB-77HcBs1D53aSadriwd08Jr6IdNBAotQn4n-EWeNxHbSlMAtRAK51MoEZHe0UBw5N8Al_qX1Gyd2hlSupH3A6Y6NCjA7GTBrgeW4cnlB9z6brNZUAC9=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0rioM6xYWk1nfsVQErni_yCFq6bvmuurSf_wCRRZXZIaBmBFCtCpujzWfDoFP42IwpQnfcsmjRZmzOwzZzXdrsHQ8IRzq-VugHS0bhbu49ES0Anu6gOOu6qM7WFQUZZlACBJQv526Lcp6W=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWRlIxY3RUVFpVYm5CeU5FazBkbGxmVDBjMVlYYxAB",
@@ -859,7 +948,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "a week ago",
+        "date": "2 weeks ago",
         "iso_date": "2026-06-20T17:10:07Z",
         "iso_date_of_last_edit": "2026-06-20T17:10:07Z",
         "snippet": "Bedankt voor je mooie woorden, Alex! Het was leuk om deze tattoo voor je te mogen zetten. Fijn om te horen dat je zo tevreden bent met het resultaat. Bedankt voor je vertrouwen en voor het delen van je ervaring. Je bent altijd welkom natuurlijk bij Oottat Tattoo! 👊😊",
@@ -870,10 +959,10 @@
       }
     },
     {
-      "position": 5,
+      "position": 7,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pad2F6QlZjMUUxWHpaTWVVOHphVE4wTkhsbFRGRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOjZwazBVc1E1XzZMeU8zaTN0NHllTFE%7C%7C?hl=en",
       "rating": 5,
-      "date": "a week ago",
+      "date": "2 weeks ago",
       "iso_date": "2026-06-18T19:57:58Z",
       "iso_date_of_last_edit": "2026-06-18T19:57:58Z",
       "source": "Google",
@@ -897,7 +986,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "a week ago",
+        "date": "2 weeks ago",
         "iso_date": "2026-06-18T20:04:26Z",
         "iso_date_of_last_edit": "2026-06-18T20:04:26Z",
         "snippet": "Thanks man! Bedankt voor je mooie review! 🙏 Het was gezellig. Goed om te horen dat je blij bent! Hij is echt gaaf geworden.\n\nThanks voor het vertrouwen en tot snel! 👊",
@@ -908,10 +997,10 @@
       }
     },
     {
-      "position": 6,
+      "position": 8,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sR1ZVaHZOMVZoVXpaRUxYWlFNV0ZHV2xRNFUzYxAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOnlGVUhvN1VhUzZELXZQMWFGWlQ4U3c%7C%7C?hl=en",
       "rating": 5,
-      "date": "2 weeks ago",
+      "date": "3 weeks ago",
       "iso_date": "2026-06-12T10:47:07Z",
       "iso_date_of_last_edit": "2026-06-12T10:47:07Z",
       "source": "Google",
@@ -931,7 +1020,7 @@
       },
       "likes": 0,
       "response": {
-        "date": "2 weeks ago",
+        "date": "3 weeks ago",
         "iso_date": "2026-06-13T14:30:55Z",
         "iso_date_of_last_edit": "2026-06-13T14:30:55Z",
         "snippet": "Bedankt voor je fijne woorden en de 5 sterren! ⭐ Geweldig om te horen dat je eerste ervaring zo goed is bevallen. Je bent altijd van harte welkom bij Oottattoo!",
@@ -942,15 +1031,15 @@
       }
     },
     {
-      "position": 7,
+      "position": 9,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Ga1ZqbHBMVjlXTm1KU1VXTlRWa1JIZDFGVU5WRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOmFkVjlpLV9WNmJSUWNTVkRHd1FUNVE%7C%7C?hl=en",
       "rating": 5,
       "date": "a month ago",
       "iso_date": "2026-05-31T08:44:42Z",
       "iso_date_of_last_edit": "2026-05-31T08:45:57Z",
       "images": [
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn17IxJguOdPDZ1dqR113Eiu6liCkBuO-mtYzNM2ygDPOzKVw1dSGv1Gg9V8DYTw3AY7Bx11LuUrtadgWQJmIA58IheyrhXXn3HH1Z5P51nnbdLl4r0VyHc0et5UuMg9Yp0xF6OZt3Bf2hM=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2HN6EP5KHUq68jDSxlEV3FSv0avRJrK5xjtPuVSUhkzC8aTOfEnwOjiUmvyzJ7eoaomutnGKGIGAjblWzanXkl7bW64Z74S_On8e_WSHpVZ8UNnSQu_2PW3QmznVVhXFXFLs8h6xYwqTzr=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0wrL0I_Yy5_mpCMbBOFK_iZQYA90LZFuU_0Z0h_XSPHKOz1SLRe3cCZQ7xcnrYyzkfMv0sSQcL5Daq5CIJKJEtV7ootl-v190xyk-4GjrZkX-EUTGe2F08KZM2B7QTfJzFW3o9J-TcR70=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2C5c1XAx6J6nvkZ-L3aAWpW3zxO97OmbSOp3o2FDDdhQExK2BuYB9HiD7MWX-x7RaOnfi4kc3hNGBSe8KxwEe7Ho9ptpS-V3cZd_cvEaOHhnClGz84AVRjqZOAMtYdyNlqIN0mpc8GTGIM=k-no"
       ],
       "source": "Google",
       "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1ZqbHBMVjlXTm1KU1VXTlRWa1JIZDFGVU5WRRAB",
@@ -988,7 +1077,7 @@
       }
     },
     {
-      "position": 8,
+      "position": 10,
       "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSRFJIZFFlbEZwTlVsblkzQmtkMEkzYm5wTGVWRRAB!2m1!1s0x0:0xa62f24a3a6176351!3m1!1s2@1:CAIQACodChtycF9oOkRDRHdQelFpNUlnY3Bkd0I3bnpLeVE%7C%7C?hl=en",
       "rating": 5,
       "date": "3 months ago",
